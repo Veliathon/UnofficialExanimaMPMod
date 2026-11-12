@@ -131,9 +131,25 @@ UPDATE_TIP = "Updates the mod in this game folder to this download's version. Yo
 UNINSTALL_TIP = "Removes the mod's files from this game folder. Your game itself stays as it is."
 
 
+
+
+FOREIGN_BUTTON = "Open folder"
+FOREIGN_BUTTON_TIP = "Opens the game folder in Explorer. Nothing is changed."
+FOREIGN_SUB = "Move that winmm.dll out, then come back here."
+FOREIGN_TIP = ("Another mod has put its own winmm.dll in the game folder. Exanima loads only one, so the two mods cannot be "
+               "installed at the same time.\n\n"
+               "To use this mod:\n"
+               "1. Close Exanima.\n"
+               "2. Click " + FOREIGN_BUTTON + ".\n"
+               "3. Move winmm.dll out of the game folder. Keep it somewhere safe if you want the other mod back later.\n"
+               "4. Come back to this window and click Install.\n\n"
+               "The other mod will not load until you put its file back.")
+
+
 def install_button_tip(label):
     ""
-    return {"Install": INSTALL_TIP, "Update": UPDATE_TIP, "Uninstall": UNINSTALL_TIP}.get((label or "").strip())
+    return {"Install": INSTALL_TIP, "Update": UPDATE_TIP, "Uninstall": UNINSTALL_TIP,
+            FOREIGN_BUTTON: FOREIGN_BUTTON_TIP}.get((label or "").strip())
 
 
 

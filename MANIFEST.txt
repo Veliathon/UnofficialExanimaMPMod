@@ -12,12 +12,12 @@ gui/STEAM-PROTOTYPE | 166 | f345bb730c33aafe0ae50e98bb5083abadc9ed94b70cfb14673f
 gui/_ctypes.pyd | 127480 | 0e56107a891100535f2da79d85a5ae65ff1227b4765bd108f8593ac1a1110d81 | lets the launcher window talk to the launcher library
 gui/_queue.pyd | 33784 | 48e76e0ad63f6932b4a77b5819f41c1e7595636ca8d9e824f0943a14b8bb5035 | lets the window stay responsive while the launcher works
 gui/_tkinter.pyd | 68600 | ed2f7b2c9984032cfb046923b45bb745f6e819730c086e559777665b45e8390e | the window toolkit (Tk) for Python
-gui/coop_launcher.dll | 1505792 | fbe1e3698f9062375e993acace28863d89d7c7f6fae37bdb92f06a39d7d379e5 | the launcher library: finds the game, installs / uninstalls the mod, hosts / joins
+gui/coop_launcher.dll | 1505792 | 03b18bf3e1420cc1fb2bd0bdabcc4530a99baf2e5405671658e455b8c88515c1 | the launcher library: finds the game, installs / uninstalls the mod, hosts / joins
 gui/exanima_coop_gui/__init__.py | 26 | 3bf8f5b72f2997a796ede904271e9691852a9c9f8c224a8db9bedaccd99609b6 | the launcher window
 gui/exanima_coop_gui/__main__.py | 435 | 902b8ef6cdb7cd4e651154adcda3f48a456cb1729e8c509398c70ac1f02ad16e | the launcher window: its start
 gui/exanima_coop_gui/about.py | 1362 | fe1a13dd3b7d92e7de7f330aaf52983914b2ea5af9566c3da8242db12612d1ad | the launcher window: name, version, publisher
 gui/exanima_coop_gui/api.py | 7549 | e7be16a64dae14ba61ef0f66e253ffda45c3e02e69df1b927ec2504e33225ac1 | the launcher window: its link to the launcher library
-gui/exanima_coop_gui/app.py | 135327 | 98f37df1b38bb218637950d75ea9cb16178eff3789a7fc01f6a3064deba573b9 | the launcher window
+gui/exanima_coop_gui/app.py | 136722 | 4233d82cd8f126ad15e7b909bed1b40f1846e2319bc950d70401a6e88cdab0cb | the launcher window
 gui/exanima_coop_gui/assets/app-icon-128.png | 39322 | a842fd679a5485aef5a87dc9b6ba17b4624d96136783a00e14015b3573fb65ef | the launcher window / taskbar icon, per size
 gui/exanima_coop_gui/assets/app-icon-16.png | 941 | 29cba8e25ff7696cf95ef928ace937b06a60bb534632397a3a4b3c29e372b9ff | the launcher window / taskbar icon, per size
 gui/exanima_coop_gui/assets/app-icon-20.png | 1350 | 88aeabedc11a972fc72a79b68efe64dc9dec811448b17ee915cacc11ac7962b9 | the launcher window / taskbar icon, per size
@@ -109,7 +109,7 @@ gui/exanima_coop_gui/assets/info/info-40-idle.png | 2779 | 9a7b227319f38e15cd4a4
 gui/exanima_coop_gui/assets/info/info-40-lit.png | 2802 | 5064db8c1f16b498de29e14843ab08fdc90759c23e15f5bb63efed94a421fc08 | the (i) information icons, per size and state
 gui/exanima_coop_gui/blocked.py | 5722 | ff422dc24ebe78b2a89e72c58aec0b03bfc60a605076042d1b72829b437f5612 | the launcher window: explains in plain words when Windows blocks the mod's files
 gui/exanima_coop_gui/bugreport.py | 13694 | 05de767215054e16b9e208ab8bc7157658f6f4d9e81dc24f423b7ec6de20dc34 | the launcher window: "Report a problem"
-gui/exanima_coop_gui/compact.py | 11473 | 0911a8331ae362d2c18a55b11db4edc8cae9abc359d3cf0f57956682881a8e94 | the launcher window: layout
+gui/exanima_coop_gui/compact.py | 12261 | a216f2622eec41e693d47dcc40b89ad4e13ca6bc62c940ac6c4849fca184613f | the launcher window: layout
 gui/exanima_coop_gui/directview.py | 7369 | 8fc37f198b6a9025528893607656b347728a86c8b72657d668625235a52cec7f | the launcher window: host / join by address
 gui/exanima_coop_gui/downgrade.py | 11728 | 66661dd24a123553775c09ba167f4eb470129cb79901991ffabebd13f664258b | the launcher window: help when the game has the wrong version
 gui/exanima_coop_gui/handoff.py | 5225 | 3180a896c39204d31f4621a17e019551a805e200f48cf45914773faf47f571d0 | the launcher window: keeps a single window open
@@ -128,7 +128,7 @@ gui/exanima_coop_gui/updatecheck.py | 2910 | a389f793da074bbf638d164ec57bc727acd
 gui/exanima_coop_gui/whatsnew.md | 4667 | 9e9908c85fcbf7d6f226944ab705519da7b933d018c8d9eb96335166eaf183f3 | the launcher window: this version's release notes for What's new (made from the release notes when the package is made)
 gui/exanima_coop_gui/whatsnew.py | 2778 | b36770f226dabb928c3e79a95aa10c155d1964c377b73c9e77fa591057d39a17 | the launcher window: the What's new panel's text
 gui/exanima_coop_gui/widgets.py | 49752 | 9ba0d9c3a42fa06a6c258cbe1e1d508015cc889e4bc377a791b059eb4544380d | the launcher window: its controls
-gui/game-files/exanima_coop.dll | 11569152 | 82abde295fe3b8aa9fb794c7de00b990e21c76441c253f6c0d039a36876f3f89 | copied into the game folder by Install: the co-op mod itself
+gui/game-files/exanima_coop.dll | 11569152 | e01e436d9ded31254a66e4323595dfd9ce64b15026fc8be2f03238f715f515b4 | copied into the game folder by Install: the co-op mod itself
 gui/game-files/winmm.dll | 289792 | 8d56c9f56369dcfa71bfaa48f1eb089e2e3ef2f6b7a38d2b583c527331d6e5ed | copied into the game folder by Install: loads the mod when the game starts
 gui/libffi-8.dll | 39696 | eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a | needed by the module above
 gui/python312.zip | 3835482 | fb131c0ef7e35cc5250a74c8cd18744bf4115fb8163710711f3758d7df3d1f88 | the Python standard library

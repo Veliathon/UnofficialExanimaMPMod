@@ -178,11 +178,21 @@ def install_row(install):
             "installed": ("Mod installed in this game folder", "ok", ("Uninstall", "ghost")),
             "not_installed": ("Mod not installed in this game folder", "accent", ("Install", "primary")),
             "update_available": ("Mod update available", "accent", ("Update", "primary")),
-            "foreign": ("Another mod's winmm.dll is in the game folder", "error", None),
+
+            "foreign": ("Another mod's winmm.dll is in the game folder", "error", (C.FOREIGN_BUTTON, "ghost")),
         }.get(st, (r.get("error", "Cannot check the game folder"), "error", None))
     if st in ("not_installed", "update_available") and not r.get("has_payload"):
         row = ("The mod's game files are missing from this download", "error", None)
     return row
+
+
+def install_tip(install):
+    ""
+
+    r = install or {}
+    if r.get("ok") and r.get("status") == "foreign":
+        return C.FOREIGN_TIP
+    return (r.get("launch") or {}).get("text") or r.get("detail")
 
 
 
@@ -356,6 +366,11 @@ class App:
         root.geometry("%dx%d" % (px(self.win_w), px(self.win_h)))
         root.minsize(px(min(self.win_w, W)), px(360))
         root.bind("<Configure>", self._on_root_configure, add="+")
+
+
+        self._away = False
+        root.bind("<FocusOut>", self._on_focus_out, add="+")
+        root.bind("<FocusIn>", self._on_focus_in, add="+")
 
 
         self._icons = self._load_app_icons()
@@ -1142,7 +1157,7 @@ class App:
         self.inst_btn = RoundButton(r2, "Install", self._install_clicked, kind="primary", height=28, size=9)
 
         Tooltip(self.inst_btn, lambda: C.install_button_tip(self.inst_btn.text))
-        Tooltip(self.inst_label, lambda: ((self.install or {}).get("launch") or {}).get("text") or (self.install or {}).get("detail"))
+        Tooltip(self.inst_label, lambda: install_tip(self.install))
 
 
         inst_sub_row = tk.Frame(inst_col, bg=T.SURFACE)
@@ -1249,12 +1264,47 @@ class App:
         ""
 
         d = self._mod_dir()
+
+        foreign = self._install_foreign()
+        if foreign:
+            self.inst_open.pack_forget()
+        elif not self.inst_open.winfo_manager():
+            self.inst_open.pack(side="left", anchor="n", padx=(px(4), 0))
         if d:
             self.inst_sub.configure(text=self._one_line_dir(d, label=self.inst_sub, room=self.inst_sub_room))
             self.inst_open.set(enabled=DG.folder_target(d) is not None)
         else:
-            self.inst_sub.configure(text="" if self.install_checking else MOD_DIR_NONE)
+            self.inst_sub.configure(text=C.FOREIGN_SUB if foreign else ("" if self.install_checking else MOD_DIR_NONE))
             self.inst_open.set(enabled=False)
+
+    def _install_foreign(self):
+        ""
+        r = self.install or {}
+        return not self.install_checking and bool(r.get("ok")) and r.get("status") == "foreign"
+
+    def _has_focus(self):
+        ""
+        try:
+            return bool(str(self.root.tk.call("focus")))
+        except tk.TclError:
+            return True
+
+    def _on_focus_out(self, _e=None):
+
+        self.root.after_idle(self._note_away)
+
+    def _note_away(self):
+        if not self._has_focus():
+            self._away = True
+
+    def _on_focus_in(self, _e=None):
+        ""
+
+        if not self._away:
+            return
+        self._away = False
+        if self._install_foreign() and self.gate and self.gate.get("dir"):
+            self._refresh_install()
 
     def _refresh_install(self, then=None):
         self.inst_btn.pack_forget()
@@ -1286,6 +1336,11 @@ class App:
     def _install_clicked(self):
         st = (self.install or {}).get("status")
         d = self.gate["dir"]
+        if st == "foreign":
+
+
+            self._open_folder(d)
+            return
         if st == "installed":
 
             self.inst_btn.configure_button(text="Checking…", enabled=False)
