@@ -1,0 +1,172 @@
+UNOFFICIAL EXANIMA MULTIPLAYER MOD - LICENCE
+
+Copyright (c) 2026 Veliathon. All rights reserved.
+Licence revision: 2026-11-11.
+
+In this licence, "the Mod" means the Unofficial Exanima Multiplayer Mod: its launcher, plugin, loader and
+accompanying files. "The developer" means Veliathon. This licence applies to material the developer is
+entitled to license; third-party components remain under their own licences as explained in section 12.
+
+Please read this licence before using the Mod. By selecting "I agree" in the launcher, you accept these
+terms. If you do not agree, choose "Quit".
+
+A note from the developer
+
+This is a small, independent project, shared freely so more people can enjoy Exanima together. It has grown
+through a great deal of experimentation, patience and care, and I hope to keep building on it for a long time.
+
+You are welcome to look inside, ask questions and learn from the work. My hope is that what you discover here
+helps you find an idea of your own to pursue. There are many games with experiences still waiting to be imagined.
+
+Please give this project room to continue growing by not using its implementation, whether copied directly or
+reconstructed with AI or other tools, as the foundation for a competing Exanima multiplayer mod. Thank you for
+respecting the time behind it and the care still going into it.
+
+The details:
+Section 8 preserves your rights under the law and takes priority over every other part of this licence.
+
+1. Free to use
+You may download the Mod and use it to play Exanima, alone or with friends, at no cost.
+You may install and run it on your own devices and make the copies needed for the uses allowed by this
+licence, including backups. The permissions in the following sections also apply.
+
+2. You are welcome to look inside
+Subject to section 8, you may inspect, study, debug and analyse the Mod, including by disassembling,
+decompiling or otherwise reverse engineering its files. You may make private modifications for learning,
+debugging and personal experimentation, subject to section 3.
+
+You may share explanations, research findings and general techniques. You may include limited code or
+decompiled excerpts reasonably needed to explain a finding, crediting the Mod. This permission does not
+allow publishing the Mod's source code or decompiled output as a whole, substantial portions of either,
+or material for a use prohibited by section 3. Section 8 still applies.
+
+3. Using the Mod to build another multiplayer mod
+Subject to section 8, you may not use the Mod or its implementation material to develop another mod or
+program that provides an alternative multiplayer implementation for Exanima by:
+- copying, adapting, incorporating or reconstructing a substantial part of this Mod's multiplayer
+  implementation; or
+- reproducing substantial implementation-specific code, structures or technical details extracted from the
+  Mod as the foundation of another multiplayer implementation.
+
+This includes substantial reuse of implementation material obtained from the Mod's binaries, decompiled code,
+debug information or implementation-specific protocol details, whether directly or through AI-assisted
+analysis, translation or reconstruction.
+
+For this section, "substantial" means significant in amount or importance to the Mod's particular
+multiplayer implementation. It does not include general ideas, algorithms, techniques, functionality,
+publicly observable behaviour or knowledge that is not protected by applicable law.
+
+Changing names, code structure, programming languages or development tools does not by itself make
+otherwise prohibited reuse permissible. Equally, similarities in functionality, behaviour, design goals or
+technical approach do not by themselves establish a breach.
+
+This section does not prohibit inspection, learning, research or private experimentation permitted by
+section 2; independent development described in section 4; or interoperability and other activities
+protected by section 8.
+
+These restrictions apply only to material and activities the developer is legally entitled to control.
+They do not create exclusive rights over the concept or functionality of Exanima multiplayer.
+
+4. Learning and independent development
+Section 3 does not prohibit:
+- examining the Mod to understand how it works;
+- learning general programming, networking or game-development concepts;
+- discussing how the Mod works, security research or troubleshooting;
+- writing independent mods and tools that work alongside the Mod;
+- developing multiplayer technology for other games or projects using your own knowledge and experience; or
+- independently developing an Exanima multiplayer solution without reusing this Mod's implementation
+  material in a way prohibited by section 3.
+
+General ideas and techniques, including networking, physics synchronisation, state replication, prediction
+and correction, remain available to everyone. Publicly observable behaviour is not restricted by this
+licence. Learning from the Mod does not by itself make your later work derived from it.
+
+5. Using AI tools
+You may use AI and other automated tools for the inspection, learning, debugging and research allowed by
+this licence. Section 3 applies equally when those tools are used: you may not provide the Mod or material
+extracted from it to a tool for the purpose of producing an implementation prohibited by section 3.
+Rewriting material through a tool does not by itself make its reuse permitted. Section 8 still applies.
+
+6. Sharing the Mod
+Share links to the official downloads. Except for permissions in sections 2, 5, 8 and 12, you may not sell
+or redistribute the Mod or its files, in original or modified form, without the developer's written
+permission. You may keep copies for your own permitted use and backup.
+Official release page: https://github.com/Veliathon/UnofficialExanimaMPMod/releases
+Other official download locations may be announced by the developer through the project channels in section 7.
+
+7. Want to do more? Just ask
+If you would like to build on the Mod, use part of it, or make something that goes beyond what this licence
+allows, get in touch. Reasonable requests are welcome.
+
+Feedback is warmly welcome. If you find a bug, notice something odd, or have an idea or suggestion, please
+share it through the official project channels below. Every report helps make UEMM better for everyone.
+
+Sharing feedback or ideas does not, by itself, grant any additional permission to use or redistribute the
+Mod outside the terms of this licence.
+
+Official Discord: https://discord.gg/wDxgGsUmxJ
+
+Official project page: https://github.com/Veliathon/UnofficialExanimaMPMod
+
+8. Your rights under the law
+Nothing in this licence restricts rights that applicable law does not allow a licence to restrict.
+Depending on the law that applies, these may include making necessary backup copies, observing, studying
+or testing software, and decompiling it where the legal conditions for interoperability are met.
+This section takes priority over every other part of the licence.
+
+9. No warranty
+To the extent permitted by applicable law, the Mod is provided "as is", without express or implied
+warranties, including warranties of merchantability, fitness for a particular purpose and non-infringement.
+It may contain bugs or stop working after game updates. Back up your saves before using it.
+This does not exclude guarantees or remedies that the law does not allow to be excluded.
+
+10. No liability
+To the extent the law allows, the developer is not liable for damage or loss arising from the Mod or its
+use, including lost or damaged save games. This does not exclude or limit liability for fraud, death or
+personal injury caused by negligence, or any other liability that applicable law does not allow to be
+excluded or limited.
+
+11. Not affiliated
+The Mod is not affiliated with or endorsed by Bare Mettle Entertainment. Exanima is a trademark of its owner.
+You need your own legitimate copy of Exanima to use the Mod.
+Exanima and its associated names, artwork and other materials remain the property of their respective
+rights holders. This licence grants no rights to the game itself and does not replace its licence or terms.
+
+12. Third-party components
+The Mod includes third-party components: see THIRD-PARTY-NOTICES.txt. Those components remain under their
+own licences, which govern them and take priority over conflicting terms here. Nothing in this licence
+reduces the permissions their authors grant you.
+
+13. If development comes to an end
+I hope UEMM can continue to benefit the community for many years, even if I am eventually unable to
+maintain it myself.
+
+If active development comes to an end, I may consider publishing additional source code, offering more
+permissive licensing terms, or giving another developer permission to continue the project.
+
+This is an expression of my present intention, not a binding promise or automatic transfer of rights.
+Inactivity, lack of updates or an inability to respond does not by itself grant any additional permissions
+or change this licence.
+
+Any additional rights or permissions must be expressly granted in writing by the developer or another
+person legally entitled to grant them.
+
+14. If these terms are broken
+Your permissions under this licence continue while you comply with its terms. If you materially breach
+the terms, the developer may give you written notice describing the breach and allowing 30 days to remedy
+it. If it is not remedied within that time, the developer may end your permissions by further written notice.
+
+If your permissions end, stop using the Mod and delete copies that you no longer have permission or a legal
+right to keep. The limits on sharing, warranty and liability continue to apply where relevant, subject to
+section 8. Ending your permissions does not affect other users' permissions or the rights granted by
+third-party licences.
+
+15. Releases and licence changes
+Each release is supplied under the licence text that accompanies it. If a later release has different
+terms, the launcher will ask you to accept them before using that release. New terms do not retroactively
+change permissions already granted for an earlier release. You may continue using an earlier release
+under the terms you accepted for it, subject to those terms.
+The developer does not promise continued updates, support or compatibility with future game versions.
+
+16. If a term cannot be enforced
+If a term cannot be enforced, the remaining terms continue to apply so far as the law permits.

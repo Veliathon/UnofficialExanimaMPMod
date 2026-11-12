@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read first - Troubleshooting
+    url: https://github.com/Veliathon/UnofficialExanimaMPMod#troubleshooting
+    about: Antivirus warnings, Smart App Control, the game version check and friends who cannot join.
+  - name: "Discord: questions, ideas, and bugs without a GitHub account"
+    url: https://discord.gg/wDxgGsUmxJ
+    about: "Questions in #help, ideas in #i-would-like. No GitHub account? Post your bug in #bug-reports with the same launcher report."

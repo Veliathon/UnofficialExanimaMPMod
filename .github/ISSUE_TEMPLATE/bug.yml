@@ -1,0 +1,76 @@
+name: Bug report
+description: Something in the Unofficial Exanima Multiplayer Mod doesn't work, or the game crashes.
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Tip:** the launcher writes the report for you. Click its bug icon ![bug icon](https://raw.githubusercontent.com/Veliathon/UnofficialExanimaMPMod/main/.github/assets/bug-icon.png) (top right), then **Report on GitHub**, and paste below.
+
+        Needs a free GitHub account. No account? Post the same report in our Discord #bug-reports: https://discord.gg/wDxgGsUmxJ
+
+        Antivirus, Smart App Control, friends who can't join: check [Troubleshooting](https://github.com/Veliathon/UnofficialExanimaMPMod#troubleshooting) first.
+  - type: input
+    id: version
+    attributes:
+      label: Mod version
+      description: At the bottom of the launcher, and in the zip's name (UEMM-<version>.zip).
+      placeholder: "0.6.4"
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Exanima version
+      description: In the launcher next to "Game", and on the game's main menu.
+      placeholder: "0.9.5.2g"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      options:
+        - Windows 11
+        - Windows 10
+        - Something else (say below)
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Were you hosting or joining?
+      options:
+        - I was hosting
+        - I joined a host
+        - I played alone with the mod
+    validations:
+      required: true
+  - type: dropdown
+    id: players
+    attributes:
+      label: Players in the session
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, what happened instead. Roughly when, if you remember.
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Launcher report
+      description: "The launcher's bug icon (top right), then Report on GitHub, copies this for you: paste it here (Ctrl+V). Technical details only, no names or file paths."
+      render: text
+  - type: markdown
+    attributes:
+      value: |
+        Everything here is public. Please don't attach logs or crash files; we'll ask if we need more.

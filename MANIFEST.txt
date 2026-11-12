@@ -1,0 +1,447 @@
+MANIFEST of the Unofficial Exanima Multiplayer Mod 0.6.4
+Every file of UEMM-0.6.4.zip: path | size in bytes | SHA-256 | why it ships
+
+Exanima Co-op._pth | 110 | 31c736f0c6bec6a0ecd1459777c36816c26bc89927020ddb607d2ed7d06e2865 | tells the program where its files are (named after the program)
+Exanima Co-op.exe | 104304 | d72294fb338bc2fc8896d25a7395a4db466425427e1559e77185d5135a830681 | the program you double-click: the official Python launcher, renamed, with the mod's icon; it opens the mod's launcher window
+LICENSE.txt | 10567 | 3f08d86a473c6a958583d6dc9777814fa5cdde47f21cafda213854e5391c7e7c | the mod's licence
+PRIVACY.md | 4574 | 1d4c0420b23a86d469a4f465ec34bf3a7a733fabc06f9005a976482b8e1b02e4 | what information the mod uses, where it goes, and who can see it
+README.md | 15524 | 672aa0ebce40ba5133b1e2af8ece4264d06859b5e8f43f237a59d134e55cd63e | what the mod is, requirements, how to run, ports, saves, uninstall, help
+THIRD-PARTY-NOTICES.txt | 50284 | 99453d8e554c3afa9a48fcab8ea0070c0cc05ecf9cd6d1d572df9814bc9c24d8 | the licences of the third-party components included
+gui/LICENSE-python.txt | 36874 | e502c6b880ff58d614901495a9009c136539cd0b1e2a2abb8fc00b934c203419 | Python's licence and the licences of its bundled components
+gui/STEAM-PROTOTYPE | 166 | f345bb730c33aafe0ae50e98bb5083abadc9ed94b70cfb14673f5ecc29709135 | lets a Steam invite or Join Game open this launcher when your game is closed
+gui/_ctypes.pyd | 127480 | 0e56107a891100535f2da79d85a5ae65ff1227b4765bd108f8593ac1a1110d81 | lets the launcher window talk to the launcher library
+gui/_queue.pyd | 33784 | 48e76e0ad63f6932b4a77b5819f41c1e7595636ca8d9e824f0943a14b8bb5035 | lets the window stay responsive while the launcher works
+gui/_tkinter.pyd | 68600 | ed2f7b2c9984032cfb046923b45bb745f6e819730c086e559777665b45e8390e | the window toolkit (Tk) for Python
+gui/coop_launcher.dll | 1505792 | fbe1e3698f9062375e993acace28863d89d7c7f6fae37bdb92f06a39d7d379e5 | the launcher library: finds the game, installs / uninstalls the mod, hosts / joins
+gui/exanima_coop_gui/__init__.py | 26 | 3bf8f5b72f2997a796ede904271e9691852a9c9f8c224a8db9bedaccd99609b6 | the launcher window
+gui/exanima_coop_gui/__main__.py | 435 | 902b8ef6cdb7cd4e651154adcda3f48a456cb1729e8c509398c70ac1f02ad16e | the launcher window: its start
+gui/exanima_coop_gui/about.py | 1362 | fe1a13dd3b7d92e7de7f330aaf52983914b2ea5af9566c3da8242db12612d1ad | the launcher window: name, version, publisher
+gui/exanima_coop_gui/api.py | 7549 | e7be16a64dae14ba61ef0f66e253ffda45c3e02e69df1b927ec2504e33225ac1 | the launcher window: its link to the launcher library
+gui/exanima_coop_gui/app.py | 135327 | 98f37df1b38bb218637950d75ea9cb16178eff3789a7fc01f6a3064deba573b9 | the launcher window
+gui/exanima_coop_gui/assets/app-icon-128.png | 39322 | a842fd679a5485aef5a87dc9b6ba17b4624d96136783a00e14015b3573fb65ef | the launcher window / taskbar icon, per size
+gui/exanima_coop_gui/assets/app-icon-16.png | 941 | 29cba8e25ff7696cf95ef928ace937b06a60bb534632397a3a4b3c29e372b9ff | the launcher window / taskbar icon, per size
+gui/exanima_coop_gui/assets/app-icon-20.png | 1350 | 88aeabedc11a972fc72a79b68efe64dc9dec811448b17ee915cacc11ac7962b9 | the launcher window / taskbar icon, per size
+gui/exanima_coop_gui/assets/app-icon-24.png | 1915 | 29687d7ab8e81a4f74df5ba9fe78e1b1ee034e8b680ce3f0a2ffe926373e6977 | the launcher window / taskbar icon, per size
+gui/exanima_coop_gui/assets/app-icon-256.png | 139577 | a14d57ae0f8274b606471a3f5e44b2b904eafec64c076cc8462a31931d48fb27 | the launcher window / taskbar icon, per size
+gui/exanima_coop_gui/assets/app-icon-32.png | 3260 | af97825dff3455eaecbbfae369ea83261e0b5c6e699bc64283dbdc087eb21de4 | the launcher window / taskbar icon, per size
+gui/exanima_coop_gui/assets/app-icon-40.png | 4886 | 0d57ae0103f7ed7202243b0c8b22966a89a451c925aca95ff4af038b32bb54ea | the launcher window / taskbar icon, per size
+gui/exanima_coop_gui/assets/app-icon-48.png | 6666 | 239bfedb60bf15c6735cf58d4502fba3829d82a3d5290e82a0dc031a56ad9300 | the launcher window / taskbar icon, per size
+gui/exanima_coop_gui/assets/app-icon-64.png | 11142 | b673e2078b18e96d7261126dea45fe60906e5dac6affab3cac9e2b163c7f36da | the launcher window / taskbar icon, per size
+gui/exanima_coop_gui/assets/bug-16.png | 769 | c4fbe1a6165a4f5c1b15c850e57637ef526206a389062e8541e538265115f2d9 | the "Report a problem" icon, per size
+gui/exanima_coop_gui/assets/bug-20.png | 1100 | 51fa1fd0cf8612b721b25f1b6ab5796f759ee1fdbd5d8353e64a18be01038bc3 | the "Report a problem" icon, per size
+gui/exanima_coop_gui/assets/bug-24.png | 1430 | a8a8621a8f86a3356752795ec7cdcf9c08293ee263e720b2ef8827cb64a21241 | the "Report a problem" icon, per size
+gui/exanima_coop_gui/assets/bug-28.png | 1794 | 6e00b07155f07c5cb5a484cd85e901e4a653359e4e6ceffd7e662a977b655206 | the "Report a problem" icon, per size
+gui/exanima_coop_gui/assets/bug-32.png | 2129 | 4560e7dd1c97cbd596d8fe8111249fc4247faa15f9c8744cebb5380bad2d5c27 | the "Report a problem" icon, per size
+gui/exanima_coop_gui/assets/bug-40.png | 3042 | 0eca9cbfee345c273aa0e82b469750f0e669bdfcffe12e77491266815c607ba6 | the "Report a problem" icon, per size
+gui/exanima_coop_gui/assets/discord-16.png | 640 | 3db03e8b2fd16c34f3cc39471d6795b91e4eb3672bf2bf6f4b81c4a125417f6a | the Discord icon (16 px)
+gui/exanima_coop_gui/assets/discord-20.png | 890 | 8ffd0626f8b885c4323aa0f1b912261d704ca025fe26ecb5a44a381b675d27a7 | the Discord icon (20 px)
+gui/exanima_coop_gui/assets/discord-24.png | 1156 | cc5002584d3de1ee0febcdd36f8f7fec58a5be0ef4ca49183a0d33538159633f | the Discord icon (24 px)
+gui/exanima_coop_gui/assets/discord-28.png | 1423 | d97fca7febe554a6f6a47a9dd3b9f83124576824509b6a41622cf810c5c321d4 | the Discord icon (28 px)
+gui/exanima_coop_gui/assets/discord-32.png | 1613 | 24661ce37871eb5baabcd149bdb1836860ca66896a920aa6b2ed85efe5561fa2 | the Discord icon (32 px)
+gui/exanima_coop_gui/assets/discord-40.png | 2102 | dfa38998e99e48222700f4d37253600e7ea131eb37ef47b1d5ffb6a71010fe64 | the Discord icon (40 px)
+gui/exanima_coop_gui/assets/github-16.png | 438 | 57a38e1f234fe4353fd9b72f1a6299f8bdb58e62dab239e8944af9411090c2f0 | the GitHub link icon (GitHub's White mark, untinted), per size
+gui/exanima_coop_gui/assets/github-20.png | 563 | d02d4c5853a97b08b907319d679a1fed0bb4928c2b2f0e459e8c27768bfe2887 | the GitHub link icon (GitHub's White mark, untinted), per size
+gui/exanima_coop_gui/assets/github-24.png | 700 | bc8cb5a54257b5d1b1ad0f5dea6134081ec4e594555000a683b3e648f67a3f7f | the GitHub link icon (GitHub's White mark, untinted), per size
+gui/exanima_coop_gui/assets/github-28.png | 857 | 87f5e41c59711adf4730fa2bf494fa222bf979c88572947e2f5bfc0327285aa8 | the GitHub link icon (GitHub's White mark, untinted), per size
+gui/exanima_coop_gui/assets/github-32.png | 991 | 3b4b238cc89d6c1adccd9a1071702215a1e7c7f107d28c78452f2ce29509e5db | the GitHub link icon (GitHub's White mark, untinted), per size
+gui/exanima_coop_gui/assets/github-40.png | 1272 | 25dac5d4b40e28a813614aa4564ee4eb9d63806398fa719ab18d585685bcd274 | the GitHub link icon (GitHub's White mark, untinted), per size
+gui/exanima_coop_gui/assets/info/info-10-idle.png | 339 | 02a8fff1f4b55ac4c14bec1f6ffafc154aa6b80e5b8e7d5c87e71250035a8f00 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-10-lit.png | 359 | 6fb6a1b8f29678c4a83c4073162625b6ffff624b0377dd9c908a53342c4c5ded | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-11-idle.png | 437 | b343f0122cb3a4d9dba070c1ba7d7c048745b6b5333bd83cc82e020e41483838 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-11-lit.png | 433 | 02fbe1aba23f6ffc3ef9907092b75ef618dde696a9fdd7ea04b62a5dfe82d63e | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-12-idle.png | 471 | 4bdf0698a4548321e24441e1cc6c8ac13cde61180bb55be88cdec9f3d9856909 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-12-lit.png | 466 | b846c89f3d229d4fe4f06e96e94927dde8765943033bd5599a8ae5f58f133df6 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-13-idle.png | 605 | a5e83218dd306795dce58a0aa0f54116c437421d81836660ab9e0b76552b9352 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-13-lit.png | 660 | d1d8eb8fd15b8c31cd27e0a0cd10dbe5da49613f0bef5a6b3baa7ba64fc856f1 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-14-idle.png | 580 | 2c398491e55c5dbfec734e737abbc13dc07cdf949a9cc92549198f751fa916d5 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-14-lit.png | 576 | 4e7a8e082bf71be1ca9589ed2c0c82673a565001f100f6f66dc3bf3ac9c6eb6f | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-15-idle.png | 626 | 4c75438f792ee2ab6495154f0d0ee123f47fb0c13a1ace685fcd928297702903 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-15-lit.png | 649 | d0f8582db8d86b3c10cc0f5372c7151fd133abde6b21bd6591e075221306094c | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-16-idle.png | 856 | 5e770090bd5ab65ff48d71d5d99c3bdb54fc1e61c0d9c530acf4918234c69846 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-16-lit.png | 876 | 6ecae29631c80f61f2547295caeda37d39a34a83d45de743b992b7510ca5360b | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-17-idle.png | 723 | 8da70a2f148f99a4b4b1a0f16af61c590ecc937fdf5584f3fb5914fce468d174 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-17-lit.png | 780 | d325581ff79a334058d1d1bab587a5c49a80600d86aefd0741a9f6792fb38462 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-18-idle.png | 730 | 9b4350f305b023c42a88a9c4d124abea6a707e987c7aff528607c7be967aa44a | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-18-lit.png | 786 | d7a6ff24129e82359502d9f9e96a267a054f49008681f509e6016520c8f57101 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-19-idle.png | 1077 | fa99668ba0bea2f7e5c54f3a7b56146b0a982b74b16a8b00a5ebca73c94fba4b | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-19-lit.png | 1093 | f8b190d53a813fdb2c0abe9f9385c6ad1e155d2edf9db8ea993cbc3b5dd9b6f5 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-20-idle.png | 961 | 39ff6f50192187ee67bfc05a8a00cbcb9a66177436a79590687173c057f96a3b | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-20-lit.png | 892 | 4c029e7ab10b2929fdd58fc5adf4d8b2edee03cbba9322a11f39f6743a5614a1 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-21-idle.png | 1027 | a482f686ec9212fc51899c3fec992fd1329f27c0a9d33ef5fd0b72d197cecf0d | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-21-lit.png | 996 | 8af88731c6d4f8d9b05fd3e7435354d17857b0de412a5faa76567a8024e8afaf | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-22-idle.png | 1310 | 18307207ddcc5904e71d49332018f79d8ca578cb29a80a2cd66c2de3ec093f39 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-22-lit.png | 1320 | e13d3e1bc1fba24bb7f24e5da8bb18b5cf32c0b20dbaf5c72e51dadb7c7c4ac5 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-23-idle.png | 1117 | 5ec2cd6cac089b6c3ecbc0294b8707db02af65aa57ff9817f0cdd473ec3689b9 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-23-lit.png | 1040 | d8d7046de9b9f80cb839d479c928dfa73fae1ec02d0888b3fb715f4625e0d384 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-24-idle.png | 1144 | e0773192596562c268d52189ea98a0618f8148c94d9396fab627375a5db879bb | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-24-lit.png | 1164 | 045071c379e2575717d9c1145ed7c547db985aa7ddccffd04d8d62d07ece41a2 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-25-idle.png | 1509 | 3c600d4e45b7c14018c325741f4cc220a870e5f50906977bc62027b094518f03 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-25-lit.png | 1518 | 858718b69d7b20943675f37f9a227d2bf629fdad6b7ff522d8e28b315231dff2 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-26-idle.png | 1199 | dd77f2e2275408996dd6d6ffc8b0882a509d305558f7d14470d6bdbc08d35638 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-26-lit.png | 1222 | d1b8e068d2181004df1abb60ce3e69d6dbfac6d5315d8926844572220ed9cb78 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-27-idle.png | 1344 | 6747d5c3af7a048fad6e5a18627ff1a73b7b2c722d15874a854824af497206b5 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-27-lit.png | 1284 | 57c74bdfc4dcc46cfe341fcd5b99f019adff84a1a9d618f183c895dc6419c44f | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-28-idle.png | 1656 | 7f8a330b89b5018ccd40e927f984270b34438bae186889da1abdb8026e682f97 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-28-lit.png | 1745 | 500ff62ac1c1f3edc3e135fbfd30ca50539f1a98ce0a5888d23281a974229ff4 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-29-idle.png | 1412 | 561cd2f0e1d69a959c363c5cb3ec2b0d1a7f4335f09c9da93631b8da970acfcd | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-29-lit.png | 1435 | 926a93d9ac808fac83234577cb4e4c91a84453f4ca42283a750e53388bc565a0 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-30-idle.png | 1480 | aa3b066b08e82e840ec3e2fdb4d28d1a53707f47779e10d0eedb8a5227f6455a | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-30-lit.png | 1431 | a248da265079c0865c82e14d1aa68ba896f2d87d3acf7e2fa4afb54ed962a1d3 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-31-idle.png | 1960 | 09950e079dbaf152aede4d8a3d390b5f2363f532394f5c94adbb628713833294 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-31-lit.png | 1972 | ae4bbd64003ab8b7bfb63fa5cfe2966b93e17a76847b1a3496c55db5a2adbbdf | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-32-idle.png | 1631 | 62c03f872071c78d08bb1142726b95f1e47c53c56879436c833696018c8ca65a | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-32-lit.png | 1568 | 41409c9d08a9569f16d98651811bdaa998b13a60f083c9a945d8d594c9654575 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-33-idle.png | 1753 | 42b8632c0514296ac6ab415d181a13b447aeeeebaeb73bf387a3a32e70534380 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-33-lit.png | 1795 | dc62c0e0f3fa5abac51eb31a5d817a356556c9b52afada0c1b2ba59cb969f90f | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-34-idle.png | 2170 | 992fb8b6e090ccb344e260c211aa9bb69e7e3f3c58b7e78fc768b8b5bd21db28 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-34-lit.png | 2210 | 9f81de0f151cc1448c05703df2ce1b19e46aa64ed8d486cb9fb6579c0e9a75ba | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-35-idle.png | 1774 | 21ea448d19a5b7582daea23f0b643f0463b809eb17b4ad52286b70c975b61907 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-35-lit.png | 1861 | ed931a5f3bda66ff73ca011032c90d24e839591ff68f7999e6675329f1e83093 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-36-idle.png | 1790 | eb49c7d8ad0f1b21cc934ca559be4a06d4634af266508cc6dbfb7c659be731f0 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-36-lit.png | 1885 | 490caf2a80297ccf20e773fb113e5efc54101b3e6bd8e1488d924ea1b1165fb6 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-37-idle.png | 2546 | 8a638facac1f551151a3fe224f63c3fbe49c0e86219a98ecefe4c6dfa65865ea | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-37-lit.png | 2529 | 54db6b60941a0cf4f6e8fa411b574e298c84fa56fca722d7ee4682eebfe7a30c | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-38-idle.png | 2037 | cbe6fb232d5cba4223fd25eacd9feedb339a90843e53cb052df19a8eb5d5f469 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-38-lit.png | 2035 | 12aa80f8d5df05c432fb14d95523894d4acf7ceec8ecf953919aa881749cd2b2 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-39-idle.png | 2753 | be0f505239a23adb552f1415637d230cf1a84ac2805a10b94ea34514b3bade21 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-39-lit.png | 2707 | 0e997749cd055aed91a9dfef7d8e4e785619bfb3773cb1613a10a20c7b63b081 | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-40-idle.png | 2779 | 9a7b227319f38e15cd4a419dab3564149f8544faddca5d0c0b7eba4dcfd4425f | the (i) information icons, per size and state
+gui/exanima_coop_gui/assets/info/info-40-lit.png | 2802 | 5064db8c1f16b498de29e14843ab08fdc90759c23e15f5bb63efed94a421fc08 | the (i) information icons, per size and state
+gui/exanima_coop_gui/blocked.py | 5722 | ff422dc24ebe78b2a89e72c58aec0b03bfc60a605076042d1b72829b437f5612 | the launcher window: explains in plain words when Windows blocks the mod's files
+gui/exanima_coop_gui/bugreport.py | 13694 | 05de767215054e16b9e208ab8bc7157658f6f4d9e81dc24f423b7ec6de20dc34 | the launcher window: "Report a problem"
+gui/exanima_coop_gui/compact.py | 11473 | 0911a8331ae362d2c18a55b11db4edc8cae9abc359d3cf0f57956682881a8e94 | the launcher window: layout
+gui/exanima_coop_gui/directview.py | 7369 | 8fc37f198b6a9025528893607656b347728a86c8b72657d668625235a52cec7f | the launcher window: host / join by address
+gui/exanima_coop_gui/downgrade.py | 11728 | 66661dd24a123553775c09ba167f4eb470129cb79901991ffabebd13f664258b | the launcher window: help when the game has the wrong version
+gui/exanima_coop_gui/handoff.py | 5225 | 3180a896c39204d31f4621a17e019551a805e200f48cf45914773faf47f571d0 | the launcher window: keeps a single window open
+gui/exanima_coop_gui/licence.py | 6560 | 2a027aa30ae9d43b5ce83af15159c1b89357337cff9d2f1713442a84693f1313 | the launcher window: the licence to agree to on first start
+gui/exanima_coop_gui/lifecycle.py | 1781 | 8ed2e2767487b7a4cf284094540193d6882df27b8208cbb9b280e54813e74b0b | the launcher window: game session states
+gui/exanima_coop_gui/notice.py | 4938 | 84ac92096a6325eed9b03b1e8858d6d0015be3797353800252891aa2410a4d15 | the launcher window: the note for players on first start (unofficial, report to the mod's Discord)
+gui/exanima_coop_gui/passwords.py | 411 | c6a3b09a5d1df780aebb0ee18ef4a153d7ddbbf6bf2169207b2f190379f3010c | the launcher window: lobby passwords
+gui/exanima_coop_gui/picks.py | 1473 | 3941e9b9e57f7831d30ebf0dd55e8c5f37441f09954384b58c0e9acab8d26f98 | the launcher window: character choice
+gui/exanima_coop_gui/risk.py | 4498 | 419b1346355649e03456a7dd423bdce67b14d67a80d5e168b29938574aec64e8 | the launcher window: the risk warning on first start and after each update (experimental software, written by AI)
+gui/exanima_coop_gui/secret.py | 2967 | 6b39adb0d383c02fe26c697dd0307380256843376f3619fa8959f78fd580ce5b | the launcher window: keeps a saved password protected by Windows
+gui/exanima_coop_gui/settings.py | 10243 | 673eb642b37c1e1e673bbdf2622d5829d9a3c6de95732f4b5140cabfbdd3b10c | the launcher window: your settings
+gui/exanima_coop_gui/steamjoin.py | 6715 | 32426e197dd18bb9d7dbfdb02b57c53de5cbfa7b3cb676d39d5c5e30d7dc6df9 | the launcher window: Steam join codes
+gui/exanima_coop_gui/steamview.py | 9375 | 8b648cfddae02fb003b5ac388e0ab6748f49445b856ca3a664a292c147d2c04f | the launcher window: the Steam and Manual tabs
+gui/exanima_coop_gui/theme.py | 7819 | c98450c3ac5439487d85c7fe89c46880a158a069ee29ccadfc054714f85dc133 | the launcher window: colours, fonts, scaling
+gui/exanima_coop_gui/updatecheck.py | 2910 | a389f793da074bbf638d164ec57bc727acd36dc51f72de34058e1c50ab17bf8a | the launcher window: asks GitHub once at start whether a newer version exists (the tick in What's new turns it off)
+gui/exanima_coop_gui/whatsnew.md | 4667 | 9e9908c85fcbf7d6f226944ab705519da7b933d018c8d9eb96335166eaf183f3 | the launcher window: this version's release notes for What's new (made from the release notes when the package is made)
+gui/exanima_coop_gui/whatsnew.py | 2778 | b36770f226dabb928c3e79a95aa10c155d1964c377b73c9e77fa591057d39a17 | the launcher window: the What's new panel's text
+gui/exanima_coop_gui/widgets.py | 49752 | 9ba0d9c3a42fa06a6c258cbe1e1d508015cc889e4bc377a791b059eb4544380d | the launcher window: its controls
+gui/game-files/exanima_coop.dll | 11569152 | 82abde295fe3b8aa9fb794c7de00b990e21c76441c253f6c0d039a36876f3f89 | copied into the game folder by Install: the co-op mod itself
+gui/game-files/winmm.dll | 289792 | 8d56c9f56369dcfa71bfaa48f1eb089e2e3ef2f6b7a38d2b583c527331d6e5ed | copied into the game folder by Install: loads the mod when the game starts
+gui/libffi-8.dll | 39696 | eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a | needed by the module above
+gui/python312.zip | 3835482 | fb131c0ef7e35cc5250a74c8cd18744bf4115fb8163710711f3758d7df3d1f88 | the Python standard library
+gui/sitecustomize.py | 1423 | dff5a1777766add62bbb538689d51f3abaceed6ed1b2f85be7d97cb62d2528da | opens the launcher window when you double-click the program
+gui/tcl/tcl8.6/auto.tcl | 21578 | 08113823951619d659eb03a1f6acd2f9500e1264795219125a5df7b83cabcb99 | the window toolkit's core scripts
+gui/tcl/tcl8.6/clock.tcl | 133009 | bd1c2dc481a582ef9eab301468ec7e7c3a284c57617fb2f4a8a97c22576fc762 | the window toolkit's core scripts
+gui/tcl/tcl8.6/encoding/ascii.enc | 1110 | fb87bf197f4f485b08ea81f7534bc07d9c3a538d022424be11011a1fe3c413fd | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/big5.enc | 94389 | ad1ed201b69855bfd353bf969dfc55576da35a963abf1bf7fc6d8b5142a61a61 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cns11643.enc | 98634 | 8924545cc92584169138aadb64683c07bbf846a57014c2e668d23b63f43f3610 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp1250.enc | 1111 | e2991a6f7a7a4d8d3c4c97947298fd5bacb3eaa2f898cee17f5e21a9861b9626 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp1251.enc | 1111 | 0aa66dff8a7ae570fee83a803f8f5391d9f0c9bd6311796592d9b6e8e36be6fc | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp1252.enc | 1111 | 741859cf238c3a63bbb20ec6ed51e46451372bb221cfff438297d261d0561c2e | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp1253.enc | 1111 | 5b8d47451f847c1bde12caca3739ca29860553c0b6399ee990d51b26f9a69722 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp1254.enc | 1111 | 31639ca96a4d3602d59bd012540fe179917e0561cb11a0d0b61f1b950eb76911 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp1255.enc | 1111 | 47576cae321c80e69c7f35205639680bf28010111e86e228ed191b084fac6b91 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp1256.enc | 1111 | 29340ea8e5ad3532bf67fa77cc852f055081b1238925cb109908aa72804ccc04 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp1257.enc | 1111 | c15ab85438728bf2c60d72b1a66af80e8b1ce3cf5eb08ba6421ff1b2f73acdf4 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp1258.enc | 1111 | 29d93dee7c01b2264778bc6b75f6ef76ea6ac53e9f4a334d83707229e7f482d2 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp437.enc | 1110 | e5613c04d3d2ee44ccad85ae53a37c257674491c540836e5d942bbcc4e4a8db4 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp737.enc | 1110 | a0415f14f5d72ad24e9c3a5c91517a0e3d22e1adbc3505c0c6e918b961f7a07d | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp775.enc | 1110 | c3c6542e902dec2c44ddcfd8b5cb7abf309b0413a7ced1614dc0b20cf7c5e35f | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp850.enc | 1110 | 13df611f429a9b331da1b34f3c718cccaf0bd4ab44f71a9c632197987b4d643b | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp852.enc | 1110 | f3a18a8c7934f6586f023477e08d3f9d5ead9a45e9e58a3f8d018af9bb13f868 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp855.enc | 1110 | e64fd2e639da6f654d9bfbb2266f9432259a6a55941622f5cddc3797e382eb0a | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp857.enc | 1110 | b6cd5c6f2b54d89142679d599ed0a5dee6955a3b3f6b6673e46afe7a5a303cdc | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp860.enc | 1110 | 804efa345c5bbbad2449c318a7a3f5b31f4234712aad23dc49b3fb5aa33b7a57 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp861.enc | 1110 | 4b7e76aeb75289faca76434ea6e9874e9504ad2bc3d8d47550eadbcc8294857e | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp862.enc | 1110 | 6c15cb256b1c22170292589c6f589e64e164eb36ec7e84f0bd48149babb7c5fc | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp863.enc | 1110 | 232d6fe34d7151920232eaae9c515f36400ab64136dcc5b802d6245ac6f5d56b | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp864.enc | 1110 | 81bebfd9a61e9f17495763b68d57742fab2a1a43871015699a2c8e5fded4ec19 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp865.enc | 1110 | ada1a52064ee93ebe6f8a5d101d01f8776038e12f21a5ca1c006ee833577c705 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp866.enc | 1110 | 32a45deba933c7ed99141535087a4c99ba79802175e3f762aca6eb941157f85a | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp869.enc | 1110 | afe6ed6eb5d07c45b6b928a48bc5ef57efcf61602d36ff9fbde4a8ea3fa6df75 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp874.enc | 1110 | 4f05f31ca026bbfeeee49ed86504cb060784137a9cfae0e5954d276e837ab5de | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp932.enc | 49008 | 6d1b512110beaf2cd1296ac878f51d567848ab4a1ced4f18c72806bb136b3d23 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp936.enc | 134671 | b6ec2be0504ca62b9d1b6857f6baa13ffac5a567d4432f4eab98adc830f5d9c3 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp949.enc | 132551 | 477f8b79b67f4a22c963ee65b9b387dbd8e4b8f62d800b0a51d2276580c6adbb | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/cp950.enc | 93330 | f80e05533d1a1494c32f9412e9ad2d9c11faf9ae0668a6f9d1fa5ceedc6870e2 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/dingbats.enc | 1113 | eb9b262e4d179268e6f017c0d4ef0e7034e31a5b4893595d150640ca1f6a1c45 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/ebcdic.enc | 1073 | 165be658ab7d61ffc3df1e2f1438c2f9fcee6808a756316302157f44e6d3acd7 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/euc-cn.enc | 86971 | 1700af47dc012a48cec89cf1dfae6d1d0d2f40ed731eff6ca55296a055a11c00 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/euc-jp.enc | 83890 | a3c916ba16bcac9faa5a1ccc62aca61452d581cd8ba3ee07ec39122c697274c9 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/euc-kr.enc | 95451 | 5448643398685456a11cbb93af2321f70b8659e2fff3ccc534b4d53bd2f38c89 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/gb12345.enc | 88033 | b4894aedd2d5b5ae54b6d2840f7c89a88e9308efd288f179e65936e172ef4b0d | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/gb1988.enc | 1111 | acd50951f81566c8d823670f9957b2479102eb5ae4cf558453e1d8436a9e31ff | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/gb2312-raw.enc | 85912 | c445e4c9f676ae997d2dda2bbc107b746f3547d85f39479951c56f46275ee355 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/gb2312.enc | 86971 | 1700af47dc012a48cec89cf1dfae6d1d0d2f40ed731eff6ca55296a055a11c00 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso2022-jp.enc | 204 | 98074c85650a420a095ada9138da3a8a0aa4027be47ea1e97a596f319eb084e9 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso2022-kr.enc | 122 | 234811fc8b0f8ff2b847d9cc3982f1699df1d21a43c74dce45ba855d22520007 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso2022.enc | 240 | 741b4c842557eed2952936204d0ae9c35fa3a0f02f826d94c50c46976291797c | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-1.enc | 1114 | a9cb4f4ca111608f882729bc5eb1c2f15530c515ef02dd2ca62f2d8dc5a210cf | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-10.enc | 1115 | 48f4a239c25354f0e9f83a39f15d4632bb18a9c33e60c671c67307159917eced | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-11.enc | 1115 | 21e769c5a66e4d12d6e7db24022e92af1ec0d0331fe3c8c605654f239c0f3640 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-13.enc | 1115 | 3271d39d7b4dcd841e8e5d5153d1b8837718b88fefec73dc37d314816eefe5e5 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-14.enc | 1115 | f0a5675027fb1ca34b4e4128d24c2968cd275890569a32a86afa4994ce4983e0 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-15.enc | 1115 | c74e8e23a0ff0d5dea7c318ca20dc817da4e57b0dd61b3361fc0d5098a9316fe | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-16.enc | 1115 | 640d977ec1d22b555c5075798da009e3523e8f55f29be22a3050cd1b4ef7b80e | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-2.enc | 1114 | 76949b03f57041b07f41902bd7505ab3594d79aa8f7bdeed5f0481004b10cbc3 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-3.enc | 1114 | 1f51e7bda64d466c16fee9a120bbe3353a10ceb9dab119ffa326779ba78d8c5d | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-4.enc | 1114 | 66b3cf994f0b5e0103d13e812958320afb555c91e3f81b579d4cbf231e6a0805 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-5.enc | 1114 | 3130bf26da0c840c1e02203a90c3b1c38966fb203130e2fbb3dd7cb3865a3539 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-6.enc | 1114 | cb71909bf01a3a7a4c7396359da06d206b58a42ad68192ce37169d6640d46e13 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-7.enc | 1114 | 76f6bc85fc9cb89bc3f94d36275ab23c740ba17fd36ec8907479da3a885415ea | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-8.enc | 1114 | 865e3665743b5faba3e1ad6aa55515a666bd05da6266879d9b66c98905daff3c | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/iso8859-9.enc | 1114 | cf51e867dde2f19553d98feec45a075c4b4f480fb1edadb3d8dad1ebea9299f3 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/jis0201.enc | 1112 | 61b14a7c312366f79bb45f02c6b7ee362e6f51cbad5e479e563c7f7e785db654 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/jis0208.enc | 81772 | f6b1c6ac5f5fc4e990a7a1aac16a406012040936431befe7d2b6cd1da9e422c4 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/jis0212.enc | 72133 | 785cfc5f5d9cb06db8061730ab0016a0f70d0b59f6787d2a3cbb8d5779c99706 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/koi8-r.enc | 1111 | 0e43244bfc4f33facb844b9e00270a1a4c24dc59b8a9b95104e2d788bb2f59fd | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/koi8-ru.enc | 1092 | 087f597d223a0835262b0fb963924628fc7316ba2dffb28b73c1fe0db001f531 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/koi8-t.enc | 1091 | b54215edddcbf3c2ba13cb4ba16fa9a152a035b75a4aacfddfa46d1581f2db42 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/koi8-u.enc | 1111 | 3c283132d53c4608ca2d2d886aa9e466d1b8e7f4fa5bd26fa2dfe540878abb12 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/ksc5601.enc | 94393 | 9b27fe7e7054f36e279993f19e52e18ac03360d117ae80c42b4e984a97c590aa | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macCentEuro.enc | 1116 | 81eca6840b87f2def9fcdd171a55c2d71a49386d88401ce927ae57d7ddd7aaaa | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macCroatian.enc | 1116 | bbe6f5ebb5eab08c91df7d524faf39b03aa8b9f84c67aba0553a84ec56668cb9 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macCyrillic.enc | 1116 | 76efe571adda7aed467f146cb0bd3a2351f2a720508ea0642c419f5347789caa | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macDingbats.enc | 1116 | 062e31d48dc33160999074e49205e08c3655dff91c2c87f254522e6ebce2dd96 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macGreek.enc | 1113 | 1aabe561b5c944abd11c293d4acac0f3a4a5a9e84a0342d066f4e3e992348895 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macIceland.enc | 1115 | 6fd08ce6fba521d51e8058de5c2dbd6583b80306a8be7d015361f76314e70a35 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macJapan.enc | 48813 | 47007d9ebf4d34c6ce3599e50afc7c1cf8129b88994de2c2a857c09003f9cd2b | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macRoman.enc | 1113 | c83d971d6bc0284ef323c197896e38c57a5ff44784e451ec2997eda70c0dd85c | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macRomania.enc | 1115 | 0b805daf21d37d702617a8c72c7345f857695108d905ff378791f291cea150f0 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macThai.enc | 1112 | a1802a2feb01b255ec7c17425eee4525372df8ce226f4047d149172eb438f913 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macTurkish.enc | 1115 | afb66138ebe9b87d8b070fe3b6e7d1a05ed508571e9e5b166c3314069d59b4e4 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/macUkraine.enc | 1115 | f7e11736c9ff30102b31ec72272754110193b347433f4b364921e8f131c92bf0 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/shiftjis.enc | 42552 | 4a15ed210126bcdae32543f60eb1a0677f985f32d49fce923b9fae8c5bcf3da4 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/symbol.enc | 1111 | 9660537a7b62996478555c6f57c1962c78fb3972f19370b2e395c44842818a1f | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/encoding/tis-620.enc | 1112 | 50b62381d6edd4219f4292bfdc365954491b23360de7c08033e7218a3d29c970 | the window toolkit's character encodings (your Windows language, file names)
+gui/tcl/tcl8.6/history.tcl | 8236 | eb86cb9d05a7b659b90765e244d535669cb8a78a65a0cf7a2c617e3544d85003 | the window toolkit's core scripts
+gui/tcl/tcl8.6/init.tcl | 25722 | acacce15658dd7ce8f69b1e3d3a94770a22972a8e906eb3b61cd06f0ecd5db59 | the window toolkit's core scripts
+gui/tcl/tcl8.6/msgs/af.msg | 1038 | a1eaca556bc0cfbd219376287c72d9dbbfab76ecf9bf204fd02d40d341baf7da | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/af_za.msg | 257 | 1548988458bbf0dfccc23b7487cec0e9c64e4cc8e045723e50bec37c454a8c81 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ar.msg | 2018 | b69d0061a728d59f89ff8621312789cd9f540bf2e2ed297804d22f6278561d85 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ar_in.msg | 265 | 2e04b96da002519d28125918a22ff2bb9659a668a7bcad34d85dddecec8dc0b4 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ar_jo.msg | 1851 | 5adbb3d37c3369e5fc80d6a462c82598d5a22faef0e8df6b3148231d2c6a7f73 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ar_lb.msg | 1851 | 1fc13070cf661488e90fece84274c46b1f4cc7e1565eab8f829ccaa65108dfca | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ar_sy.msg | 1851 | 294f3e46c55453edad44567e1330f9b43e69a07fa0655b24dd2780a4490c1194 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/be.msg | 2157 | a636a82c7d00ccdc0af2496043ffa320f17b0d48a1232708810d3bb1453e881e | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/bg.msg | 1871 | cfe4e44a3a751f113847667ec9ea741e762bbde0d4284822cb337df0f92c1aca | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/bn.msg | 2335 | 890ea6521deb1b3c3913ccd92562f6360e064daee2e2b0356a6dd97a46264a1f | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/bn_in.msg | 265 | b3d8a4632290b0f3da690e47c1fdf06a8b9e171a96e938afdb0dd52cf806ce54 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ca.msg | 1152 | 3be295dcc8fcdc767fed0c68e3867359c18e7e57d7db6c07236b5bc572ad328e | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/cs.msg | 1354 | afea12a16a6fa750ea610245133b90f178ba714848f89aec37429a3e7b06be1a | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/da.msg | 1208 | 0d422a991bca13fe9033118691cfedab0f372222ebb0bc92baf8e914ee816b84 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/de.msg | 1276 | 4c27733502066e8391654d1d372f92bf0484c5a3821e121ae8aa5b99378c99ae | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/de_at.msg | 847 | 1c02d14140196623297f858e2eef00b4159e1c6fafe044ec65a48c9c24d46540 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/de_be.msg | 1276 | 532845cd15ec821c1939d000c648694a64e8ca8f0c14bad5d79682cf991481ce | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/el.msg | 2304 | 8b23e0e2f0f319bb9a2dfdccdc565ff79a62fa85094811189b6bc41594232b6b | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_au.msg | 307 | 705c66c14b6de682ec7408eabdba0800c626629e64458971bc8a4cbd3d5db111 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_be.msg | 312 | bc87754a253c1036e423fa553da182dbc56f62a13eda811d8cd9e8afa40404a6 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_bw.msg | 257 | ec48f18995d46f82b1cc71ea285174505a50e3ba2017bcce2d807149b7543fd0 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_ca.msg | 295 | 3cf2d0937fd95264549cf5c768b898f01d4875a3eb4a85d457d758bc11dfec6e | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_gb.msg | 286 | c2ce5b74f9e9c190b21c5df4106303b7b794481228fb9a57065b9c822a1059c3 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_hk.msg | 329 | 563450a38db6c6a1911bc04f4f55b816910b3e768b1465a69f9b3bd27292dbee | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_ie.msg | 286 | 9e0dcee86a03b7bdd831e0008868a9b874c506315bf01df3982ad3813fd3ba8e | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_in.msg | 318 | adea3a1ab8aa84237ddb2f276abdb96dcb4c51932e920d1a5e336904e1138664 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_nz.msg | 307 | ec305b7cb393421e6826d8f4fea749d3902eba53bfa488f2b463412f4070b9ed | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_ph.msg | 329 | 3a9c22b07906544c04f7a29b800fce87c09d7fdf5c251236925115cf251a3890 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_sg.msg | 257 | d565679ae9aacbfe3b5273fe29bd46f46ffbb63c837d7925c11356d267f5ff82 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_za.msg | 251 | 67c253e2a187aa814809418e5b7a21f3a1f9fb5073458a59d80290f58c6c1eb4 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/en_zw.msg | 257 | 6f4754ce29dfa4f0e7957923249151ce8277395d1af9f102d61b185f85899e4e | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/eo.msg | 1285 | 98d52cab5ca65789d1dc37949b65baf0272ab87bccbb4d4982c3af380d5406ab | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es.msg | 1232 | e9a6fe8cce7c808487da505176984d02f7d644425934cedb10b521fe1e796202 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_ar.msg | 248 | b97dcea4fec3e14632b1511d8c4f9e5a157d97b4ebbc7c6ee100c3558cb2947f | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_bo.msg | 257 | b47f55539db6f64304dea080d6f9a39165f1b9d4704dcba4c182dbd3aa31a11b | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_cl.msg | 257 | 9d1a2a6eba673c6f6d964dbcddf228cb64978f282e70e494b60d74e16a1db9cb | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_co.msg | 257 | 5fac53acfb305c055afd0ba824742a78cb506046b26dac21c73f0bb60c2b889a | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_cr.msg | 257 | a33dc22330d087b8567670b4915c334ff1741ee03f05d616cc801ecfda1d9e64 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_do.msg | 257 | 8dc2f857e91912ed46a94eb6b37dd6170ea7bcddcd41cb85c0926a74ee12fcc1 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_ec.msg | 257 | 52ab5a6c9dd4f130a75c049b3af8f54b84071fc190374bccf5fa0e1f3b91eb21 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_gt.msg | 257 | 19b4d3025156c060a16328370a3fdb9f141298decfc8f97be606f6438fece2ee | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_hn.msg | 257 | 07873d4d59bb41000706a844859c73d26b1ff794058aa83cffca804981a24038 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_mx.msg | 257 | a0f57137d2c0abdc933e03cfb188f5632176c195ceadb9dc80d469c8dc6cedc6 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_ni.msg | 257 | 6250663da1378e54bedcef206583d212bc0d61d04d070495238d33715bb20cae | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_pa.msg | 257 | ebb661c1c09e7d4f6fbcc4b2dad0f41442b1ffdd27f003abdc0375dd316e57d7 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_pe.msg | 257 | 90c130b66958cf63cb3ddd2c633e58444357dbab44c56831dd794cbd2eb1aed0 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_pr.msg | 257 | f790e8e48dc079dcd7deb58170561006a31294f7e4acbf9cf2abfa3db9e3fa9e | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_py.msg | 257 | 70263f7eb22822dfee8849b7ac4418ed9331275a71e77236b59226396505cdff | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_sv.msg | 257 | 26a38b3745c95673d21babb987f1d41ee08dda945c670f5432ba0ce6f893c0e9 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_uy.msg | 257 | 1291b58810739ea0651493dd7887f5ee3e14bdb806e06dd4bb8ae2520c742eda | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/es_ve.msg | 257 | 91191517403c712299919f9c797f952502e33cb6961d1dbee3a7c9e8d2b170b9 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/et.msg | 1258 | 4bee224c21b0483cff39be145c671aa20cb7872c8727fd918c0e8eca2bbeb172 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/eu.msg | 1032 | 6889b57d29b670c6cfb7b5a3f2f1749d12c802e8e9629014d06ce23c034c7ef1 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/eu_es.msg | 294 | d45cc432e5743e6cec34e9a1e0f91a9d5c315cda409e0826b51ad9d908479eb6 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/fa.msg | 1711 | 86898728b275288693b200568dc927c3ff5b9050690876c4441a8339dae06386 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/fa_in.msg | 2009 | 6b56545c1ae1de53bc2389bb7ae59f115bade24f907e384e079491dc77d6541d | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/fa_ir.msg | 426 | 3d9779c27e8960143d00961f6e82124120fd47b7f3cb82db3df21cdd9090c707 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/fi.msg | 1195 | 9929a6b7139bd7e0f29487f7888a83e4c4f5e9ce0352738cfca94ee2ddf3bd6b | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/fo.msg | 1033 | 2ec9b03469fa38b260915c93318f446ea5e12b9090bd441936b57552eba1e3c9 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/fo_fo.msg | 286 | c3dccf5e5904c24d4ad9aaa36160a78f5397a7452510c0c0e61de4de863305cb | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/fr.msg | 1257 | 96b1e1e12cd13a56722ebf27d362c70b467342fa1282a40b89fb16b5105a0480 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/fr_be.msg | 286 | aad828bcbb512fbd9902dcdd3812247a74913cc574deb07da95a7bbe74b1fe48 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/fr_ca.msg | 286 | 0624df9a56723ddb89e59736c20a5837dea2206a789ebe7eef19ad287590ca45 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/fr_ch.msg | 288 | 290ca6eb74baeac4e2420d0755d148849f89ee87e37860f25cbb7b8afa3edcbc | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ga.msg | 1188 | 880806867acabd9b39e3029a5add26b690cc5709082d43b0959eba725ea07ab5 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ga_ie.msg | 286 | 3f9615c617d3cdbc1e127b3efee785b0cb5e92e17b7dabac80da2beaf076362c | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/gl.msg | 997 | 34d61b49dbf9584893051ffb458d6de9e7e2e7774ac0011f70c4dd4184eba81c | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/gl_es.msg | 257 | b5688ca07d713227b713655877710258cd503617e8df79293a971649e3134f05 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/gv.msg | 1084 | 404795f2c88d0038f9ed0b5120a251d26edf8b236e1b1698bc71acd4dc75ac45 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/gv_gb.msg | 257 | 86cabf3b9360c0e686cc4cbeb843e971c28bc6d35210ed378b54eb58cc41f3d5 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/he.msg | 1990 | 787da79af58872bf45ab09e3b6a920a4496b5bd8a4f3c7f010cf013ec2e8efe0 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/hi.msg | 1777 | 192f4a8e77e1627712f85533c9896ef6a040157c7bd56df3a4a7fa56ad6746c2 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/hi_in.msg | 257 | 5a3bf0dd61bfb5a2bf75e96b11e0e3528ffab720a0bf1923853606f8caf0e76d | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/hr.msg | 1171 | 105a9180bc5d23738183374fa0ea8dd80484bf3947e1432e515bdc2913c017d9 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/hu.msg | 1381 | 993475532f89e1ea7214adb265294040862305612d680cff01dd20615b731ccc | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/id.msg | 961 | 41c0c3d3b4491e9b36e719466503efcd325175cb7824c4a5055cb113d347be0f | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/id_id.msg | 257 | ba7fc0c0452d3e482db6e19bdf512caced639ba72b92ed8f66d80b52fea11ac0 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/is.msg | 1305 | 778be3d6bfe2dffb64ff1afb9ec8351a3343b314cf93a68e8f7fd1073ee122bb | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/it.msg | 1294 | 1d72170b9f9028a237364f7cd7ea8b48bd4770e61922205ce862300103b13de5 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/it_ch.msg | 250 | 24b5f303f5c7af6f63fdc23adb4d713087ae74b6d18c117d787af03374c5f57e | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ja.msg | 1689 | 2b6d15a191437f1b84fa7023e34153b61e6bf1de1452ea921e9ccbbe5d4beb1c | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/kl.msg | 1025 | 96ff17f1cff976e4e204d3616d1efced4d0f907c5e6a0f04b4536cb4ad1190c9 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/kl_gl.msg | 286 | 3027cfe9ebd2172cefc15c025786cad47a6e2894bf0474afc1b0c341e70202aa | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ko.msg | 1621 | ef6fb319c398eea79b3a951319f831f3b186d556565d17d738e5f9b4b77570f2 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ko_kr.msg | 354 | 4cac8fb43d290a63a4d3215f22228b358ab4fa174f08712dd6c5b64c5e485071 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/kok.msg | 1997 | 9d215e31a39fed45b3657144e5f73c942e59e500036ce16b1fff201fd6358595 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/kok_in.msg | 260 | 644f2b6d4ba27af14891b781def60f708a9f18fc2f73566649b631a6dea3ef09 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/kw.msg | 1013 | eab468ac5bf1833d4f8cd658789413d4a46cad16b63fb9b906cff6dc9ea26251 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/kw_gb.msg | 257 | edac14d929d1c6559ec46e9b460f8f44a189b78fb915f2d641104549cbd94188 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/lt.msg | 1307 | 855b652fcc8066ba45c7dc8dbfd3807d1b4759ea8d71c523567f47bf445d1de6 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/lv.msg | 1271 | 7e90d2008b220db19c796c7107ad69d263b8ac8c7bddfb879230699d978e9a0a | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/mk.msg | 2157 | 4c0eb07f0fcb36dd12a3f7edd6531616611abf62bf7705b5a37cc59098221d5d | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/mr.msg | 1846 | ae873bf5484eacbbe179913d43451be53378fa701b5d81594d052266b8a09af0 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/mr_in.msg | 257 | b7b1d379355a1d278e13ef557a887a662e84fb6a9b62b8e19a27927926270ef9 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ms.msg | 957 | 970b2f3ecc04980fcc2f9531ca6ce2bf36bc12942cb614bf70313b4cb0508985 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ms_my.msg | 265 | f5b859d8dd2a2b5f756e39b0dfeb26b95878d2f54ba3ce46c56f0f26cf2b554b | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/mt.msg | 717 | 7dbc4e82d82fde8cdf522fa10e082289d46b0c1a4a7d7a5fa83ff116677f052b | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/nb.msg | 1209 | 534c5dacef12f818faf4ed806997a559f95d591f1b6236b0c30b07a107dd13f3 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/nl.msg | 1129 | 9e2fe3851cf13ec79a9b10a09b01ceb0a26044ae0dc90a4e00be57745e854c79 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/nl_be.msg | 286 | 77a69dd60d171b321512b14794e75a66ff753410c007997b310790d86e09b057 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/nn.msg | 1200 | 06fa2d6d8c59d0b8eac2ede5ab0ddb8b6e095d1a023b1966fce3b65916fa14fb | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/pl.msg | 1263 | 61462c325db0065352d8155307f949869862a86cac67ad7bb6703f57a7fa2ff3 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/pt.msg | 1177 | 6f6eeeddcf232bdcb952592a144810ced44a1cbb4bcc2c062d5f98d441505380 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/pt_br.msg | 286 | 320be7d5b730091e6fa35f196314737261c8e154577dcf6ac8c2057d44394ad7 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ro.msg | 1224 | 25ed6ac7a353e23b954b98611ae3b7e56bdcf2b0cb0db358253cfb8bebbb831c | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ru.msg | 2091 | bb35bb6f07baef72c329ec3e95d6527a2736070ee2ffe5de227e1ff0332390f8 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ru_ua.msg | 248 | 13e4e79a0ed82034bade0cff8def5de1222f6968108ad710662bdb7daf36d7e1 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/sh.msg | 1212 | e65d6e5e837df0a2df0db77bce45334bbc27efff9023c37119e75d49932d9d6c | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/sk.msg | 1255 | 976813f6c53c9bebbf976b0f560fd7fc5e4ec4c574d7e1cd31f9a4056765cb7a | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/sl.msg | 1216 | 11a6264676dbed87e4f718075127e32e107854f35f141642454f484984084486 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/sq.msg | 1321 | 1f4efd78f6b45b65f73f09b2f52fc13c2a7c4138dcb7664804878d197b6ebdf9 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/sr.msg | 2087 | fa00a7b22c9941f6c2b893f22b703dcb159ca2f2e4005fd6a74a632aeb786bfa | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/sv.msg | 1219 | 483916b51bd7e071e88f9ec36aaf3e08fea823991532f832de491c6c40b55a9f | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/sw.msg | 1040 | 1da068c9aa02ef14a2440758c6040d632d96044a20ec501dbb9e40d8592e0e7f | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ta.msg | 1874 | aefdc4255890d5b3ffe5cee1b457b7d711283c2287aba644155c10956012f6c1 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/ta_in.msg | 257 | 4978a193076de56944236f7f1dcecacff739536dfb3dbefc1f7fe2b97a8aeaf4 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/te.msg | 2149 | 9e96c7123100234a7018533764502985a208f2eb3314f5b6332d46016725a63f | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/te_in.msg | 419 | b110feedda21eccefa624bef8e1476e9f221fb253880ac370967ae4d0237ca7a | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/th.msg | 2359 | 48beaf693bf5b6eed15234db0d375b97e6d576a749e9048420c153e6cafc0259 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/tr.msg | 1183 | 4b85b345d6c43f7257c6849a60a492397fd5fd9d82df3a2252189d7a1eccbb64 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/uk.msg | 2165 | 7093da7e39ceb6d3f51eb6cf1cca2d7f3680ed7b8fe4a5f0ceceef6beb21ac77 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/vi.msg | 1471 | e9b7aecd456f1d2288604c982b5ded0dcf71dca968c0b0eaff4ca16cc3b73ec2 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/zh.msg | 3385 | eb247f5184a59414d3df7e3eca51f5998c248cfb27d2c02e62a7a30ab35197a7 | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/zh_cn.msg | 319 | 4c8a855700fefe8ee21b08030ff4159d8011ae50353f063229c42de6292475cf | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/zh_hk.msg | 780 | 7e1c5bd9ec1a17bb851b0dcabd0dfa9ff9d64b89603d9d3fbeaac609172346ae | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/zh_sg.msg | 347 | 500546b3211d454659d845b4ab9aef226125100df40407c49530de17cdd4363f | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/msgs/zh_tw.msg | 354 | dba0584b8e1925b439f06e0bf0965e97afb7eb39e70e0e4c9b70769ebc5f996c | the window toolkit's date and time texts per language
+gui/tcl/tcl8.6/opt0.4/optparse.tcl | 33781 | b8ac6c849dd7ee771f9d95718c3b9fc289872f05bfb1a36d32fde8edcba5e1c4 | part of the window toolkit's core scripts (option parsing)
+gui/tcl/tcl8.6/opt0.4/pkgIndex.tcl | 636 | 68accee3eb8d0f134f9472c95425190ec08e7793df20a58d7d35325f42804695 | part of the window toolkit's core scripts (option parsing)
+gui/tcl/tcl8.6/package.tcl | 23983 | b471cec9056b62d562020b14d69d4bd1f92dfe158afc8ba81c6341836211ca46 | the window toolkit's core scripts
+gui/tcl/tcl8.6/parray.tcl | 844 | e269029c8263e3cbc1920c3604ecdcf15edccb208a0d68f9eb42b73954d620c0 | the window toolkit's core scripts
+gui/tcl/tcl8.6/safe.tcl | 42328 | 5359b1a04e22823101661590136325561524372ae0f5dc7dd320422689667201 | the window toolkit's core scripts
+gui/tcl/tcl8.6/tclIndex | 7432 | 577f042bbe640e2739606a1f76098abdb8bd1d1f31526402fb82b21091644f65 | the window toolkit's core scripts
+gui/tcl/tcl8.6/tm.tcl | 12236 | f0cc13daca21fee538cca757aa09e88a969a85174eda26e61e573dda6c7ba413 | the window toolkit's core scripts
+gui/tcl/tcl8.6/word.tcl | 5051 | 128a314521ea5671569e265968057da0c5a420f126ad02c4a2db7efc736620e9 | the window toolkit's core scripts
+gui/tcl/tcl8/8.4/platform-1.0.19.tm | 11708 | fe9087e2779ff30d229356e87920f3add9e362a70fccb832ae23086118bfc0da | part of the window toolkit's core scripts (platform detection)
+gui/tcl/tcl8/8.4/platform/shell-1.1.4.tm | 6242 | 94999ba791c37f6da7c3029ccd3919ba40f116a8fb180e4ce648a955c3a944d0 | part of the window toolkit's core scripts (platform detection)
+gui/tcl/tcl8/8.5/msgcat-1.6.1.tm | 35120 | adca186be560f2236265f538d4cb6df1171bed91192118796988bb9c08a4bc7c | the window toolkit's message texts
+gui/tcl/tk8.6/bgerror.tcl | 8806 | 8822365ee279bebf7a36cfdedba1114762f894781f4635170cc5d85ff5b17923 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/button.tcl | 21612 | 1f5dd8d81b26f16e772e92fd2a22accb785004d0ed3447e54f87005d9c6a07a5 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/choosedir.tcl | 10009 | 0eb33bc583823e5f10172c04b73b07ee36a17f1a5e2662548f2f3a13c7517fe7 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/clrpick.tcl | 22039 | d8d500875e78b21fc1f5f4196218715116474ec834b6e52022a18f885d4645b2 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/comdlg.tcl | 8690 | c7da292ccf5f413e599c3491c331ffd58cf273f8477facb097e6f36cf1f32a08 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/console.tcl | 33364 | a775f935ac061f6d881cf37e7fe97ceaa98c5a14c77343d2f3f7825d61e50fc0 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/dialog.tcl | 5988 | 1c977052c1d8293cc5fe4198a538beca9bc821af85e76e4eefbfb75b33ce8bed | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/entry.tcl | 18942 | 6ac78f764434f932d37e8183aa6db5d04eb1848b774c92f7abc243ecb7d4a59b | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/focus.tcl | 5035 | 8872f236d7e824aec0acd4bacc00fdd7ec9bc5534814ecf2160610c10647b7c5 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/fontchooser.tcl | 18292 | 901f70bb14a197495575d3bd2bf11e8654f9490e7e16d8dca8057c5393ff2093 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/iconlist.tcl | 17456 | 541647a1d4d91ffb8ee93d53b0017e5c3d3fa943373bb8490761d25b7a2ca330 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/icons.tcl | 11037 | 1264940e62b9a37967925418e9d0dc0befd369e8c181b9bab3d1607e3cc14b85 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/license.terms | 2307 | 0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/listbox.tcl | 15255 | 47c75f9f8348bf8f2c086c57b97b73741218100ca38d10b8abdf2051c95b9801 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/megawidget.tcl | 9862 | 848258b946c002e2696ca3815a1589c8120af5cc41fbc11bbd9a3f5754cc21af | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/menu.tcl | 40215 | ae4ee8400174c798337b9c60867cbc94f811b249ebe6dea21ec6f960bcf5f8cb | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/mkpsenc.tcl | 30840 | c5bdca3aba671f03dc4624ab5fd260490f5002491d6c619142ccf5a1a744528a | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/msgbox.tcl | 16786 | a07e3a3809ced3c6c9c1e171dca5ad1f28357734cd41b2b9dd9f58085b3d2842 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/msgs/cs.msg | 4235 | 4dffbeedbf0d66d84b13088016d1a782ceaad4ded27be1e38842f8969c0e533f | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/da.msg | 3987 | feef8f8ad33bb3362c845a25d6ed273c398051047d899b31790474614c7afd2d | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/de.msg | 4914 | c0f574b14068a049e93421c73873d750c98de28b7b77aa42fe72cbe0270a4186 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/el.msg | 8784 | 3f6f155864fe59a341bfd869735e54dd21cee21bbd038433d9b271ad77ba3f7e | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/en.msg | 3377 | 4a33b44b2e220e28eaae7fac407cafe43d97c270da58fa5f3b699a1760bfb2a4 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/en_gb.msg | 66 | 01238293356e82f1d298896491f8b299bb7dc9c34f299c9e756254c736da612b | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/eo.msg | 4035 | 84b117857674a2426290946053a61316c5c8c6808f2c6edf0ecc5c4a9c5c72ac | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/es.msg | 4024 | d2842b80f1b521eff2d2656a69274b5f2a8f4f5831af2e8ee73e3c37389f981f | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/fi.msg | 4693 | 893bedcdaed4602898d988e6248b8bb0857dd66c06194b45f31340ca03d82369 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/fr.msg | 3877 | 3f2ceb4a33695ab6b56e27f61a4c60c029935bb026497d99cb2c246bcb4a63c4 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/hu.msg | 4678 | e063ad7ca93f37728a65e4cd7c0433950f22607d307949f6cb056446afeaa4fe | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/it.msg | 3765 | 806930f283fd097195c7850e3486b3815d1564529b4f8e5fa6d26f3175183bc1 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/nl.msg | 4557 | 0914fba42361227d14fa281e8a9cbf57c16200b4da1e61cc3402ef0113a512c7 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/pl.msg | 4932 | eaceb1f08de0863ccf726881e07fe5b135ea09646c5253e0cbf7ddb987eb0d92 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/pt.msg | 3987 | d687f71f0432bb0d02efdf576e526d2c19d4136f76c41a3224a2f034168f3f34 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/ru.msg | 8620 | f0d310a2ee9c0af928d822cbb39bcbe54fb2c1c95ee8167dffd55edc1b2fe040 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/sv.msg | 3908 | a6821a13d34fb31f1827294b82c4bf9586bb255ca14f78c3ace11181f42ef211 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/msgs/zh_cn.msg | 4948 | fd33a3408b054c297a9263b9b695cd629818bc9a882321ae8ac9e4c01ac07cc8 | the window toolkit's dialog texts per language
+gui/tcl/tk8.6/obsolete.tcl | 5772 | 540eeecba17207a56290baffdae882bbd4f88364791204ad5d14c7bedd022ccc | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/optMenu.tcl | 1629 | 40ca505c9784b0767d4854485c5c311829594a4fcbdfd7251e60e6bb7ea74fd1 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/palette.tcl | 8418 | 849b4c57e4644e51beaeaeb3ae59b7ff067e582ecd10f1b2caf6b6e72f11f506 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/panedwindow.tcl | 5370 | aa4f87e41ac8297f51150f2a9f787607690d01793456b93f0939c54d394731f9 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/pkgIndex.tcl | 376 | 6127926b94db2992ab450fc6cc2ec3d071f7bbc856656d0ae20cc3fd4036f547 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/safetk.tcl | 7632 | 579701605669aadffbcdb7e3545c68442495428ee6e93c2d3a3133583bcd3d33 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/scale.tcl | 8693 | 0747a387fdd1b2c7135eceae7b392ed52e1d1ebf3ffa90febe886dbc0981eb74 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/scrlbar.tcl | 13188 | eec90404f702d3cfbfaec0f13bf5ed1ebeb736bee12d7e69770181a25401c61f | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/spinbox.tcl | 16543 | 747889c3086c917a34554a9dc495bc0c08a03fd3a5828353ed2a64b97f376835 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/tclIndex | 24443 | 82470f88d2a26edb1a83bfbb25854b2253063a3c3576f785f89df5298e7fccd2 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/tearoff.tcl | 4625 | 04b284915da1940758d0fd73bbb9cbbc9967bbaa5e5a9db9947f7e8fedd0df96 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/text.tcl | 35183 | f7ecc5ae6eb297c79aad5cfc200b29c4e72409641fa369c5cdbba30ae41e982a | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/tk.tcl | 24322 | b7fd24177b17f67da2ca671f711309c65cf246be1fd0cf4f1ab8f3ea9ca2c3f1 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/tkfbox.tcl | 39606 | baf1ed7b617fb64ca097e81059454783c4d922999e19000cf2953cc09c8f4505 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/ttk/altTheme.tcl | 4901 | 3ecfc60d1311804096f524c6d60df65c48d2e78ed9eca47f2b927e0ee4bc92fe | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/aquaTheme.tcl | 3809 | 7191303317f91b320a78e0f717da3e1074a6f183a88e441cc98d16f097fdb461 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/button.tcl | 3014 | e38a9d1f437981aa6bf0bdd074d57b769a4140c0f7d9aff51743fe4ecc6dfddf | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/clamTheme.tcl | 5858 | bd0c56233d5c1c5e3b5c5aa3fc849f6eb43666f441bcc8033d80324cfde5c4c7 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/classicTheme.tcl | 4354 | f684be4c4b09288888e847415f8ae0e0f4aad985edfbe40b768a7dfc6efaf40f | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/combobox.tcl | 12708 | 2c254e4a56910fa398966196de101c1f57bbd06fd30957681b54f3895435ae97 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/cursors.tcl | 4674 | 5b33f32b0139663347d6cf70a5a838f8e4554e0e881e97c8478b77733162ea73 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/defaults.tcl | 5004 | b0a7d46c554e6dd8a27d379459c073587e3283edd395e9610fc1ee0ca5bcf0b6 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/entry.tcl | 18006 | f2cacb1b3a941cc7079627644e91f0d4729bf820c481c8ce7fa28c952b803e4d | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/fonts.tcl | 5639 | 6574067a91858506460ac44ddf8cf9270e81d67b2feff2a43b4d5f774568a5ec | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/menubutton.tcl | 6408 | 0935fb97b6628f055baeb2e2babbf2a6c8905260e1107972b0e7a1df0752e180 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/notebook.tcl | 5863 | b1210147f9daf3068de3d28d4b18c04ecfa8c8574e3e0ad275c1d0d75e9a99b2 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/panedwindow.tcl | 2161 | edd27e92c29552415f57415eefbedf124532a965295de4a41dcad55297e42901 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/progress.tcl | 1138 | 697cc0a75ae31fe9c2d85fb25dca0afa5d0df9c523a2dfad2e4a36893be75fba | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/scale.tcl | 2787 | b909add0b87fa8ee08fd731041907212a8a0939d37d2ff9b2f600cd67dabd4bb | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/scrollbar.tcl | 3284 | c223da92b7f5a7cb7f4f4da89cf94ecd472c6aad40bf2455bca7ab2409e459fc | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/sizegrip.tcl | 2502 | d50e9db6dce8c50e060d6d89a9d86605dd0bf3dda1862c303bfb367854290885 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/spinbox.tcl | 5003 | df286bb59f471aa1e19df39af0ef7aa84df9f04dc4a439a747dd8ba43c300150 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/treeview.tcl | 10180 | c88b60ffb0f72e095f6fc9786930add7f9ed049eabc713f889f9a7da516e188c | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/ttk.tcl | 5509 | 685398e8db93aebbabfed795e91a42a87aa0e2a2cf23bfcffd70fea085a7ad5e | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/utils.tcl | 8621 | b9b73e5bcd85c8fe00628332f0ab0c4a0ffbb59f7b4e9d6cdc92762a5bcd8d76 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/vistaTheme.tcl | 10692 | 70049837a4cbe9c14efe56c00c9e0d5d1431dbdcc8c4cb53ccf3811a56b43947 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/winTheme.tcl | 3848 | 55d1f8f82cc8cad02a518c9443cf4d7eaef5226b8b225d10896a343f62b6da9d | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/ttk/xpTheme.tcl | 3090 | ee562416bd4aa281b5c59a8eff39d7d5e9c91fd3cb10f84930bc1e977af404f6 | the window toolkit's themed widget scripts
+gui/tcl/tk8.6/unsupported.tcl | 10521 | b463b366f139ddf7fed31f34c6d2341f9f27845a1a358011dfc801e1333b1828 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl/tk8.6/xmfbox.tcl | 26991 | c4722eadede763fa52e7937d40067b0f8eb86b7a4b707f90212ed3e5289690d0 | the window toolkit's widget scripts and its licence (license.terms)
+gui/tcl86t.dll | 1841896 | b894e0c9a7d2b56f9f202de5044221cfc0938cbd9ffaca6b6793bba486e28081 | the window toolkit: Tcl
+gui/tk86t.dll | 1590776 | 3883976d6270c44cf43b0f4e3b925259a36c42f586680a93dfe6a3fdfb5b4939 | the window toolkit: Tk
+gui/tkinter/__init__.py | 177850 | 4b4a2a132c7f1eb3d51215297fd6bea1c0292bbdca889a298dbd01943b0211e3 | the window toolkit for Python
+gui/tkinter/commondialog.py | 1342 | 051f370511e07ae6d05c894991b4aa44cc671098149953453cc14b219c96e4d4 | part of the window toolkit for Python: dialogs
+gui/tkinter/constants.py | 1603 | 0ffd883463f20255fbd458d8abd15a6842190f2f5cc182416cb9a15ffb1e1052 | part of the window toolkit for Python
+gui/tkinter/font.py | 7239 | b9aa2df909024b1f27ca46affe796c8f1771cf627b10494789d5fb808421d8fe | part of the window toolkit for Python: fonts
+gui/tkinter/messagebox.py | 4007 | 57e037eaa580d6c4453c2e5fa907a23961385a656ead1901b73281adf8f5986e | part of the window toolkit for Python: message boxes
+gui/tkinter/simpledialog.py | 12194 | 42d0971f1d2d4a98862fd0ee802210e446cefe1d9544d1abb090896fb328ea54 | part of the window toolkit for Python: input dialogs
+gui/tkinter/ttk.py | 57958 | 447db6ec9c5bb73f470dfe3353d06fb08d8ec7ce24089c027b7d8b447d5624fb | part of the window toolkit for Python: themed widgets
+gui/zlib1.dll | 148336 | a3a9487dd7a27be0296731513a5c1d9005bd3acf5861ccbe0aabca3984f51c4f | compression library needed by Tcl
+python312.dll | 6945272 | 9a0e3435aaa680d868150f87ab3e388ad2eebc22f87e036155c7b4eda8cd2120 | the Python runtime the program needs beside it
+vcruntime140.dll | 120400 | 052ad6a20d375957e82aa6a3c441ea548d89be0981516ca7eb306e063d5027f4 | the Microsoft C runtime the Python runtime needs (not every Windows has it)
