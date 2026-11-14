@@ -1,4 +1,4 @@
-# UEMM 0.6.5
+# UEMM 0.6.6-proto.1
 Released 2026-11-14
 
 > [!CAUTION]
@@ -24,10 +24,10 @@ Released 2026-11-14
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.5
-- Fights no longer make the ping climb, and the joining player sees the action on time.
-- Joining a game is much quicker.
-- Everyone should update. The host must: the fix is on the side that sends.
+## New in 0.6.6-proto.1
+- When you hit someone the other player's game runs, the other player now hears their cry of pain.
+- A spell charging up is heard by the other player, on time.
+- This build is for checking those two; other missing sounds are still being worked on.
 
 ## Known issues
 Connection:
