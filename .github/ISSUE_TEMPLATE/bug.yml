@@ -15,7 +15,7 @@ body:
     attributes:
       label: Mod version
       description: At the bottom of the launcher, and in the zip's name (UEMM-<version>.zip).
-      placeholder: "0.6.4"
+      placeholder: "0.6.5"
     validations:
       required: true
   - type: input

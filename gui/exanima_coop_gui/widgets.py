@@ -1,4 +1,4 @@
-"Voraesnon drithasaes kudroskou."
+"Droudrepeind krodeiskirn neizolouth."
 
 
 

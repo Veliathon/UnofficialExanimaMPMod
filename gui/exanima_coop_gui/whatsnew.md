@@ -1,5 +1,5 @@
-# UEMM 0.6.4
-Released 2026-11-12
+# UEMM 0.6.5
+Released 2026-11-14
 
 > [!CAUTION]
 > **WARNING: EXPERIMENTAL SOFTWARE, WRITTEN BY AI**
@@ -24,16 +24,16 @@ Released 2026-11-12
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.4
-- Fights sound right for everyone: you hear a friend's swings and grunts, and those of the enemies they fight.
-- Enemies near a friend no longer vanish or stand frozen in place.
-- Sleeping enemies wake for every player, the way they do in single player.
-- Blast and other aimed spells land where the caster aimed, on every screen.
+## New in 0.6.5
+- Fights no longer make the ping climb, and the joining player sees the action on time.
+- Joining a game is much quicker.
+- Everyone should update. The host must: the fix is on the side that sends.
 
 ## Known issues
 Connection:
 - On a slow host upload, far-away characters and objects move less smoothly, and joining takes longer. The player with
   the best upload should host.
+- On a slow host upload, a friend joining can briefly make the game stutter for the players already in.
 
 Combat:
 - Under lag, a parry can look different on each screen. The block still counts.

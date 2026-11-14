@@ -7,7 +7,7 @@
 >
 > See LICENSE.txt sections 9 and 10.
 
-# Unofficial Exanima Multiplayer Mod 0.6.4
+# Unofficial Exanima Multiplayer Mod 0.6.5
 
 Play Exanima together online. One player hosts; up to three friends join from their own PCs, each with their own
 character.
@@ -49,7 +49,7 @@ leave them visible in screenshots and videos, so nobody mistakes the mod for the
 - [Licence](#licence)
 
 ## Read this first
-- 0.6.4 is an early release. It's in decent shape, but not finished.
+- 0.6.5 is an early release. It's in decent shape, but not finished.
 - Expect bugs, known and unknown. Some can end a session.
 - Keep a checkpoint, and back up your saves (see [Saves](#saves)).
 - Play it and tell us what breaks. Every report helps the next version. The known issues are in the release notes
@@ -74,14 +74,14 @@ Every player needs:
 - Windows 10 or 11 (64-bit).
 - Exanima on Steam, game version **V 0.9.5.2g** (Steam build 25803178).
 - Steam running and online.
-- This mod, the same version for everyone (0.6.4).
+- This mod, the same version for everyone (0.6.5).
 
-**The host needs a good upload.** The host sends the game to every friend. For smooth fights, plan on about 1.5 Mbit/s of upload per friend (about 4.5 Mbit/s for three friends). The player with the best upload should host; you can test yours at any speed-test site.
+**The host needs a good upload.** The host sends the game to every friend. For smooth fights, plan on about 2 Mbit/s of upload per friend (about 6 Mbit/s for three friends). The player with the best upload should host; you can test yours at any speed-test site.
 
 Nothing else to install: everything the mod uses is in the download.
 
 ## Installation
-1. Back up your saves (see [Saves](#saves)). Download `UEMM-0.6.4.zip` from the Releases page.
+1. Back up your saves (see [Saves](#saves)). Download `UEMM-0.6.5.zip` from the Releases page.
 2. Unzip it into its own folder, for example in your Documents. Keep the files together.
 3. Start **Exanima Co-op.exe**.
 4. The first time, read the licence and choose **I agree**.
@@ -191,7 +191,7 @@ updating, and keep a backup while you test this release.
   account (see [Support and bug reports](#support-and-bug-reports)).
 
 ## Known issues and limitations
-The full list is in the release notes for 0.6.4, on the Releases page.
+The full list is in the release notes for 0.6.5, on the Releases page.
 
 The main limits:
 - Steam only. Hosting and joining by address come later.
