@@ -1,4 +1,4 @@
-# UEMM 0.6.6-proto.1
+# UEMM 0.6.6-proto.2
 Released 2026-11-14
 
 > [!CAUTION]
@@ -24,10 +24,11 @@ Released 2026-11-14
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.6-proto.1
-- When you hit someone the other player's game runs, the other player now hears their cry of pain.
-- A spell charging up is heard by the other player, on time.
-- This build is for checking those two; other missing sounds are still being worked on.
+## New in 0.6.6-proto.2
+- Sounds, as in the first prototype: the cry of pain when you hit someone the other player's game runs, and a spell charging up, are heard by the other player.
+- A fix for a player's body staying invisible to the others after joining, rejoining or making a new character.
+- A fix for a reconnected player standing still on the host's screen after a connection stall.
+- New: the players panel says when someone joins, leaves or loses connection.
 
 ## Known issues
 Connection:
