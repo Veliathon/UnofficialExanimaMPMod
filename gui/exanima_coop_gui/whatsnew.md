@@ -1,5 +1,5 @@
-# UEMM 0.6.6-proto.2
-Released 2026-11-14
+# UEMM 0.6.6-proto.3
+Released 2026-11-16
 
 > [!CAUTION]
 > **WARNING: EXPERIMENTAL SOFTWARE, WRITTEN BY AI**
@@ -24,11 +24,11 @@ Released 2026-11-14
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.6-proto.2
-- Sounds, as in the first prototype: the cry of pain when you hit someone the other player's game runs, and a spell charging up, are heard by the other player.
-- A fix for a player's body staying invisible to the others after joining, rejoining or making a new character.
-- A fix for a reconnected player standing still on the host's screen after a connection stall.
-- New: the players panel says when someone joins, leaves or loses connection.
+## New in 0.6.6-proto.3
+- A joining player is no longer left behind at level changes in a long game; a save that was affected recovers when it is loaded.
+- Worn items put on straight from a chest are no longer duplicated, and an item swapped off is no longer lost when the group changes level right afterwards.
+- Sewer lamps now switch for every player, whoever turns them, and joining players hear the level's own music after a level change.
+- Carried over from the earlier prototypes: sounds of other players' fights (hit cries; Blast, Bolt and Wave), join / leave notices, and a joining player's character no longer invisible to others.
 
 ## Known issues
 Connection:
