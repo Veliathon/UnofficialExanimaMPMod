@@ -1,4 +1,4 @@
-# UEMM 0.6.6-proto.3
+# UEMM 0.6.6-proto.4
 Released 2026-11-16
 
 > [!CAUTION]
@@ -24,11 +24,11 @@ Released 2026-11-16
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.6-proto.3
-- A joining player is no longer left behind at level changes in a long game; a save that was affected recovers when it is loaded.
-- Worn items put on straight from a chest are no longer duplicated, and an item swapped off is no longer lost when the group changes level right afterwards.
-- Sewer lamps now switch for every player, whoever turns them, and joining players hear the level's own music after a level change.
-- Carried over from the earlier prototypes: sounds of other players' fights (hit cries; Blast, Bolt and Wave), join / leave notices, and a joining player's character no longer invisible to others.
+## New in 0.6.6-proto.4
+- After you pick a character to play, the screen goes dark at once and shows the world arriving with a progress bar; one click is enough.
+- Notices now tell connecting and disconnecting apart from taking or leaving a character, the same on every player's screen.
+- A joining player's game no longer risks closing after a level change or a return to the main menu.
+- Carried over from the earlier prototypes: the joiner left behind at level changes, duplicated worn items, sewer lamps, level music, sounds of other players' fights.
 
 ## Known issues
 Connection:
