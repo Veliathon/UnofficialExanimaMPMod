@@ -1,5 +1,5 @@
-# UEMM 0.6.6-proto.4
-Released 2026-11-16
+# UEMM 0.6.6-proto.5
+Released 2026-11-17
 
 > [!CAUTION]
 > **WARNING: EXPERIMENTAL SOFTWARE, WRITTEN BY AI**
@@ -24,11 +24,33 @@ Released 2026-11-16
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.6-proto.4
+## New in 0.6.6-proto.5
+This build contains everything below.
+
+**New in this prototype**
+- The first time you choose a character in a freshly started game, the screen now goes dark at once, like every later time.
+- The world is downloaded only after you choose a character, on the dark screen with its progress bar. Nothing is downloaded while you sit at the main menu.
+- Choosing a character no longer fails on a slow connection while the world is still arriving.
+- The host can change level while another player sits at their main menu. That player can choose their character afterwards and carry on.
+
+**Added in prototype 4**
 - After you pick a character to play, the screen goes dark at once and shows the world arriving with a progress bar; one click is enough.
 - Notices now tell connecting and disconnecting apart from taking or leaving a character, the same on every player's screen.
 - A joining player's game no longer risks closing after a level change or a return to the main menu.
-- Carried over from the earlier prototypes: the joiner left behind at level changes, duplicated worn items, sewer lamps, level music, sounds of other players' fights.
+
+**Added in prototype 3**
+- A joining player is no longer left behind at level changes in a long game; a save that was affected recovers when it is loaded.
+- Worn items put on straight from a chest are no longer duplicated, and an item swapped off is no longer lost when the group changes level right afterwards.
+- Sewer lamps now switch for every player, whoever turns them, and joining players hear the level's own music after a level change.
+
+**Added in prototype 2**
+- A player's body no longer stays invisible to the others after joining, rejoining or making a new character.
+- A reconnected player no longer stands still on the host's screen after a connection stall.
+- The players panel says when someone joins, leaves or loses connection.
+
+**Added in prototype 1**
+- When you hit someone the other player's game runs, the other player now hears their cry of pain.
+- A spell charging up is heard by the other player, on time.
 
 ## Known issues
 Connection:
