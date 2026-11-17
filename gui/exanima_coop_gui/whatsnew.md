@@ -1,5 +1,5 @@
-# UEMM 0.6.5
-Released 2026-11-14
+# UEMM 0.6.6
+Released 2026-11-17
 
 > [!CAUTION]
 > **WARNING: EXPERIMENTAL SOFTWARE, WRITTEN BY AI**
@@ -24,10 +24,21 @@ Released 2026-11-14
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.5
-- Fights no longer make the ping climb, and the joining player sees the action on time.
-- Joining a game is much quicker.
-- Everyone should update. The host must: the fix is on the side that sends.
+## New in 0.6.6
+- A joining player now stays with the group at every level change, however long the game has run. Before, in a long game they could be left behind each time; saves that were affected recover when they are loaded.
+- A joining player's game now stays open after a level change and after going back to the main menu. Before, it could close without warning at those moments.
+- The host can now change level while another player sits at their main menu, and that player can choose their character afterwards and carry on in the new level. Before, the host was stuck waiting at the exit.
+- A worn item taken straight from a chest (a helmet, a piece of armour) now exists once, with the player who took it. Before, the other player could still find a second copy in the chest.
+- An item you swap off now stays with you when the group changes level right afterwards. Before, it could vanish.
+- Choosing a character now turns the screen dark at once and shows the world arriving with a progress bar. Before, the menu could stay on screen for many seconds as if nothing had happened.
+- The world is now downloaded only after you choose a character. Before, it was downloaded in the background while you sat at the main menu, which made the ping look very high.
+- Choosing a character now works on a slow connection: the game waits for as long as the world keeps arriving. Before, it could give up with a "took too long" message while the download was still running.
+- Every player's character is now visible to everyone after joining, rejoining or making a new character. Before, a character could be invisible to another player who still heard its footsteps.
+- A player who reconnects after a connection stall now moves again on the host's screen. Before, they could stand frozen there.
+- You now hear other players' fights: the cry of pain of someone they hit, and their spells charging up. Before, those sounds were silent for you.
+- The sewer lights now change for every player when the lever is pulled. Before, they could be on for one player and off for another.
+- Joining players now hear each level's own music. Before, they heard the main menu music in the level.
+- New: short notices tell you when a player connects, disconnects, takes or leaves a character, or loses connection. Before, nobody noticed when a player dropped out.
 
 ## Known issues
 Connection:
