@@ -1,4 +1,4 @@
-# UEMM 0.6.7-proto.3
+# UEMM 0.6.7-proto.4
 Released 2026-11-23
 
 > [!CAUTION]
@@ -24,10 +24,13 @@ Released 2026-11-23
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.7-proto.3
+## New in 0.6.7-proto.4
 This build contains everything below.
 
 **New in this prototype**
+- Mind Sense now shows the real mood of an enemy in the middle of a fight as well. Before, an enemy fighting next to a player looked calm to the other players.
+
+**Added in prototype 3**
 - Far-away sounds near another player no longer burst out for a split second. Before, the host could hear loud snippets of doors, footsteps or an enemy's grunt from the other side of the level.
 - An enemy keeps its mood when it changes hands between players' games while Mind Sense is showing it. Before, its anger could be reset at that moment.
 
