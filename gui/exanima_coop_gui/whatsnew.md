@@ -1,5 +1,5 @@
-# UEMM 0.6.7-proto.2
-Released 2026-11-19
+# UEMM 0.6.7-proto.3
+Released 2026-11-23
 
 > [!CAUTION]
 > **WARNING: EXPERIMENTAL SOFTWARE, WRITTEN BY AI**
@@ -24,10 +24,14 @@ Released 2026-11-19
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.7-proto.2
+## New in 0.6.7-proto.3
 This build contains everything below.
 
 **New in this prototype**
+- Far-away sounds near another player no longer burst out for a split second. Before, the host could hear loud snippets of doors, footsteps or an enemy's grunt from the other side of the level.
+- An enemy keeps its mood when it changes hands between players' games while Mind Sense is showing it. Before, its anger could be reset at that moment.
+
+**Added in prototype 2**
 - A player on a slow connection is now waited for at a level change for as long as the level keeps arriving, and comes through. Before, they could be left on a black screen.
 - A friend whose game has stopped no longer holds the party at the exit for ever. Their character now comes along to the new level, and they take it back when they return. Before, the exit could wait for them without end.
 - A level change that really fails now ends at the joining player's main menu, with a line of text saying so. Before, it could stay on a black screen.

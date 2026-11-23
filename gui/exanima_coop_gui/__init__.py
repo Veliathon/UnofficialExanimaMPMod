@@ -1,3 +1,3 @@
 ""
 
-__version__ = "0.6.7-proto.2"
+__version__ = "0.6.7-proto.3"
