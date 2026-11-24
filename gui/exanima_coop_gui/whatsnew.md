@@ -1,5 +1,5 @@
-# UEMM 0.6.6
-Released 2026-11-17
+# UEMM 0.6.7
+Released 2026-11-24
 
 > [!CAUTION]
 > **WARNING: EXPERIMENTAL SOFTWARE, WRITTEN BY AI**
@@ -24,23 +24,22 @@ Released 2026-11-17
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.6
-- A joining player now stays with the group at every level change, however long the game has run. Before, in a long game they could be left behind each time; saves that were affected recover when they are loaded.
-- A joining player's game now stays open after a level change and after going back to the main menu. Before, it could close without warning at those moments.
-- The host can now change level while another player sits at their main menu, and that player can choose their character afterwards and carry on in the new level. Before, the host was stuck waiting at the exit.
-- A worn item taken straight from a chest (a helmet, a piece of armour) now exists once, with the player who took it. Before, the other player could still find a second copy in the chest.
-- An item you swap off now stays with you when the group changes level right afterwards. Before, it could vanish.
-- Choosing a character now turns the screen dark at once and shows the world arriving with a progress bar. Before, the menu could stay on screen for many seconds as if nothing had happened.
-- The world is now downloaded only after you choose a character. Before, it was downloaded in the background while you sat at the main menu, which made the ping look very high.
-- Choosing a character now works on a slow connection: the game waits for as long as the world keeps arriving. Before, it could give up with a "took too long" message while the download was still running.
-- Every player's character is now visible to everyone after joining, rejoining or making a new character. Before, a character could be invisible to another player who still heard its footsteps.
-- A player who reconnects after a connection stall now moves again on the host's screen. Before, they could stand frozen there.
-- You now hear other players' fights: the cry of pain of someone they hit, and their spells charging up. Before, those sounds were silent for you.
-- The sewer lights now change for every player when the lever is pulled. Before, they could be on for one player and off for another.
-- Joining players now hear each level's own music. Before, they heard the main menu music in the level.
-- New: short notices tell you when a player connects, disconnects, takes or leaves a character, or loses connection. Before, nobody noticed when a player dropped out.
+## New in 0.6.7
+- Far-away sounds near another player no longer burst out for a split second. Before, the host could hear loud snippets of doors, footsteps or an enemy's grunt from the other side of the level.
+- Enemies now stay on screen when the players split up. Before, an enemy you were fighting could vanish for a second and pop back, again and again, while your friend was elsewhere in the level.
+- The demon summoned in the throne fight in the gardens now appears once for everyone. Before, a joining player could see a second one.
+- A joining player now starts in the clothes they chose in the character creator. Before, clothes put on or taken off there were lost for a joining player. One limit remains: an item put down from the hand in the creator still starts in the hand.
+- A player on a slow connection is now waited for at a level change for as long as the level keeps arriving. Before, they could be left on a black screen.
+- Mind Sense now shows every player an enemy's real mood: an enemy fighting another player, an enemy in the middle of a fight, and an enemy passing from one player's game to another's. Before, such an enemy could look calm, or its anger could be reset.
+- The host's mana is no longer held back for each friend in the party. Before, one lasting spell's worth of mana was held back per friend. Saves that were affected are put right when they are loaded.
+- Joining on a slow connection now works: the download is no longer cut off after three minutes while it is still moving, and a download that has stopped says so. Before, a slow but working download could be stopped after three minutes.
+- A level change that really fails now ends at the joining player's main menu, with a line of text saying so. Before, it could stay on a black screen.
 
 ## Known issues
+Not fixed yet:
+- Choosing a character on a very slow connection can leave the joining player without control.
+- Going to the main menu in the middle of a level change is not handled yet.
+
 Connection:
 - On a slow host upload, far-away characters and objects move less smoothly, and joining takes longer. The player with
   the best upload should host.
