@@ -1,5 +1,5 @@
-# UEMM 0.6.7-proto.4
-Released 2026-11-23
+# UEMM 0.6.8-proto.1
+Released 2026-11-25
 
 > [!CAUTION]
 > **WARNING: EXPERIMENTAL SOFTWARE, WRITTEN BY AI**
@@ -24,30 +24,12 @@ Released 2026-11-23
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.7-proto.4
+## New in 0.6.8-proto.1
 This build contains everything below.
 
 **New in this prototype**
-- Mind Sense now shows the real mood of an enemy in the middle of a fight as well. Before, an enemy fighting next to a player looked calm to the other players.
-
-**Added in prototype 3**
-- Far-away sounds near another player no longer burst out for a split second. Before, the host could hear loud snippets of doors, footsteps or an enemy's grunt from the other side of the level.
-- An enemy keeps its mood when it changes hands between players' games while Mind Sense is showing it. Before, its anger could be reset at that moment.
-
-**Added in prototype 2**
-- A player on a slow connection is now waited for at a level change for as long as the level keeps arriving, and comes through. Before, they could be left on a black screen.
-- A friend whose game has stopped no longer holds the party at the exit for ever. Their character now comes along to the new level, and they take it back when they return. Before, the exit could wait for them without end.
-- A level change that really fails now ends at the joining player's main menu, with a line of text saying so. Before, it could stay on a black screen.
-- Joining on a slow connection: the download is no longer cut off after three minutes while it is still moving, and a download that has stopped now says so. Before, a slow but working download could be stopped after three minutes.
-- The demon summoned in the throne fight in the gardens now appears once for everyone. Before, a joining player could see a second one.
-- Mind Sense now shows the real state of mind of an enemy that is fighting another player. Before, it showed that enemy as calm.
-- The host's mana is no longer held back for each friend in the party. Before, one lasting spell's worth of mana was held back per friend. Saves that were affected are put right when they are loaded.
-- Every player needs this prototype. It cannot play together with prototype 1, because the network version changed again.
-
-**Added in prototype 1**
-- Enemies now stay on screen when the players split up. Before, an enemy you were fighting could vanish for a second and pop back, again and again, while your friend was elsewhere in the level.
-- A joining player now starts in the clothes they chose when making a new character. Before, clothes put on or taken off in the character creator were lost for a joining player (the host's own choices already worked). One limit remains: an item put down from the hand in the creator still starts in the hand.
-- Every player needs this same prototype. It cannot play together with the current version or with earlier prototypes, because the network version changed.
+- Hits on a friend, or on an enemy that is fighting someone else, now land with their full weight: the body moves as it should, a stumble plays out, and a killing blow throws the enemy the way it was hit. Before, those hits felt weak.
+- Every player in a session needs this same prototype.
 
 ## Known issues
 Not fixed yet:
