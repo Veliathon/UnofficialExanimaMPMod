@@ -1,5 +1,5 @@
-# UEMM 0.6.8-proto.1
-Released 2026-11-25
+# UEMM 0.6.8-proto.4
+Released 2026-11-27
 
 > [!CAUTION]
 > **WARNING: EXPERIMENTAL SOFTWARE, WRITTEN BY AI**
@@ -24,10 +24,22 @@ Released 2026-11-25
 - **The F1 panel.** Who's here, their ping, the join code.
 - **A launcher that just works.** Finds your game, installs in one click, checks versions, and writes your bug reports.
 
-## New in 0.6.8-proto.1
+## New in 0.6.8-proto.4
 This build contains everything below.
 
 **New in this prototype**
+- A plank or other object someone has just put down is now solid for everyone almost at once, also when a player is standing right next to it. Before, it could stay like a ghost for up to five seconds, and a friend stepping onto it could fall through.
+- During a world transfer the players panel now says the world is being sent or received. Before, it showed a misleading, very high ping figure that looked like a broken connection.
+
+**Added in prototype 3**
+- Pushing, ramming and striking no longer close the game in the rare moments found in testing (a body waking up, collapsing or with no floor under it): the push of that moment is left out instead. Before, the game could crash.
+
+**Added in prototype 2**
+- Running into another player, or into an enemy that another player is fighting, now pushes them as the game does, with a weapon in hand or with empty hands. Before, it was like running into a wall.
+- With three or more players, hits and shoves between two players who joined the host, or on an enemy that one of them is fighting, now land on that player's screen too. Before, only the player who struck or shoved saw them.
+- This prototype only plays with this same prototype: it cannot share a session with an earlier prototype or with the current release.
+
+**Added in prototype 1**
 - Hits on a friend, or on an enemy that is fighting someone else, now land with their full weight: the body moves as it should, a stumble plays out, and a killing blow throws the enemy the way it was hit. Before, those hits felt weak.
 - Every player in a session needs this same prototype.
 

@@ -77,7 +77,7 @@ NEXT_FAILED = RETRY + " Steam must be signed in to the account that owns Exanima
 NEXT_NOT_REPLACED = ("Click %s again: it first moves the old copy aside (nothing is deleted). Then paste in "
                      "Steam's console again: Ctrl+V, then Enter." % BUTTON)
 
-STEP_OF = {"blocked": 1, "downloading": 3, "mismatch": 1, "failed": 1, "idle": 1, "ready": 4, "waiting": 2, "not_replaced": 1}
+STEP_OF = {"mismatch": 1, "waiting": 2, "not_replaced": 1, "blocked": 1, "downloading": 3, "idle": 1, "ready": 4, "failed": 1}
 
 
 
